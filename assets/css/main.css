@@ -3854,6 +3854,7 @@
 }
 
 .main > .content a {
+	font-weight: bolder;
 	color: #8cc9f0;
 }
 
