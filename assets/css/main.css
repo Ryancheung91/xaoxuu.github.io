@@ -2494,6 +2494,7 @@
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		font-size: .9em;
 	}
 
 		ul li {
@@ -2631,6 +2632,7 @@
 
 	dl {
 		margin: 0 0 2em 0;
+		font-size: .9em;
 	}
 
 		dl dt {
@@ -3753,7 +3755,7 @@
 			width: 100%;
 			margin-top: 3em;
 			margin-bottom: 0;
-			font-size: 0.75em;
+			font-size: 0.8em;
 			text-align: center;
 		}
 
