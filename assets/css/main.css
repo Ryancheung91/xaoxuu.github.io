@@ -3252,13 +3252,13 @@
 		position: fixed;
 		top:0;
 		width: 64em;
-		font-weight: bolder;
+		font-weight: bold;
 		max-width: calc(100% - 4em);
 		border-bottom-left-radius: 0.25em;
 		border-bottom-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
-		letter-spacing: 0.05em;
+		letter-spacing: 0.08em;
 		box-shadow: 0 1px 4px 0 #0003;
 	}
 
@@ -3423,6 +3423,7 @@
 		#main input[type="button"],
 		#main button,
 		#main .button {
+			font-weight: bolder;
 			background-color: transparent;
 			/*box-shadow: inset 0 0 0 1px #8CC9F0;*/
 			color: #666 !important;
