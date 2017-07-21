@@ -1726,7 +1726,7 @@
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: #8cc9f0;
+			color: #2CA3FF;
 			text-decoration: none;
 		}
 
@@ -2027,7 +2027,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #8cc9f0;
+			background-color: #2CA3FF;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -2038,7 +2038,7 @@
 			button.special:hover,
 			.button.special:hover {
 				/*background-color: #9acff2;*/
-				background-color: #8cc9f066;
+				background-color: #2CA3FF66;
 			}
 
 			input[type="submit"].special:active,
@@ -2242,8 +2242,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #8cc9f0;
-			box-shadow: 0 0 0 1px #8cc9f0;
+			border-color: #2CA3FF;
+			box-shadow: 0 0 0 1px #2CA3FF;
 		}
 
 	.select-wrapper:before {
@@ -2270,8 +2270,8 @@
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #8cc9f0;
-		box-shadow: 0 0 0 1px #8cc9f0;
+		border-color: #2CA3FF;
+		box-shadow: 0 0 0 1px #2CA3FF;
 	}
 
 	::-webkit-input-placeholder {
@@ -2371,7 +2371,7 @@
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #2CA3FF;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2941,7 +2941,7 @@
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #2CA3FF;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3427,7 +3427,7 @@
 		#main .button {
 			font-weight: bolder;
 			background-color: transparent;
-			/*box-shadow: inset 0 0 0 1px #8CC9F0;*/
+			/*box-shadow: inset 0 0 0 1px #2CA3FF;*/
 			color: #666 !important;
 		}
 
@@ -3437,7 +3437,7 @@
 			#main button:hover,
 			#main .button:hover {
 				background-color: #fff;
-				box-shadow: 0 0px 8px 0 #8CC9F0BB;
+				box-shadow: 0 0px 8px 0 #2CA3FFBB;
 			}
 
 			#main input[type="submit"]:active,
@@ -3461,7 +3461,7 @@
 			#main input[type="button"].special,
 			#main button.special,
 			#main .button.special {
-				background-color: #8cc9f0;
+				background-color: #2CA3FF;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3471,9 +3471,8 @@
 				#main input[type="button"].special:hover,
 				#main button.special:hover,
 				#main .button.special:hover {
-					/*background-color: #9acff2;*/
-					background-color: #77ABCC;
-					box-shadow: 0 0px 8px 0 #8CC9F0BB;
+					background-color: #2CA3FFAA;
+					box-shadow: 0 0px 6px 0 #00000066;
 				}
 
 				#main input[type="submit"].special:active,
@@ -3482,7 +3481,7 @@
 				#main button.special:active,
 				#main .button.special:active {
 					/*background-color: #7ec3ee;*/
-					background-color: #6591AD;
+					background-color: #2CA3FF;
 				}
 
 				#main input[type="submit"].special.icon:before,
@@ -3511,8 +3510,8 @@
 			#main input[type="email"]:focus,
 			#main select:focus,
 			#main textarea:focus {
-				border-color: #8cc9f0;
-				box-shadow: 0 0 0 1px #8cc9f0;
+				border-color: #2CA3FF;
+				box-shadow: 0 0 0 1px #2CA3FF;
 			}
 
 		#main .select-wrapper:before {
@@ -3539,8 +3538,8 @@
 
 		#main input[type="checkbox"]:focus + label:before,
 		#main input[type="radio"]:focus + label:before {
-			border-color: #8cc9f0;
-			box-shadow: 0 0 0 1px #8cc9f0;
+			border-color: #2CA3FF;
+			box-shadow: 0 0 0 1px #2CA3FF;
 		}
 
 		#main ::-webkit-input-placeholder {
@@ -3583,7 +3582,7 @@
 			}
 
 			#main .icon.alt:active {
-				background-color: #8cc9f0;
+				background-color: #2CA3FF;
 				/*background-color: rgba(222, 222, 222, 0.95);*/
 			}
 
@@ -3597,10 +3596,10 @@
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #2CA3FF);
+			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #2CA3FF);
+			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #2CA3FF);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #2CA3FF);
 		}
 
 		#main table tbody tr {
@@ -3858,7 +3857,7 @@
 
 .main > .content a {
 	font-weight: bolder;
-	color: #8cc9f0;
+	color: #2CA3FF;
 }
 
 #main .actions a {
