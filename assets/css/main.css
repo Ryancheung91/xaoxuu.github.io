@@ -1649,7 +1649,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Ubuntu", "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Ubuntu", Monaco, Menlo, "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1791,7 +1791,7 @@
 	code {
 		border-radius: 8px;
 		border: solid 1px;
-		font-family: "Ubuntu", "Courier New", monospace;
+		font-family: Monaco, Menlo, "Ubuntu", "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -1799,7 +1799,7 @@
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Ubuntu", "Courier New", monospace;
+		font-family: Monaco, Menlo, "Ubuntu", "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
