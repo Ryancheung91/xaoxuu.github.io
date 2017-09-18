@@ -3471,8 +3471,12 @@
 				#main input[type="button"].special:hover,
 				#main button.special:hover,
 				#main .button.special:hover {
-					background-color: #2CA3FFAA;
-					box-shadow: 0 0px 6px 0 #00000066;
+					/*background-color: #2CA3FFAA;
+					box-shadow: 0 0px 6px 0 #00000066;*/
+					background-color: #fff;
+					box-shadow: 0 0px 8px 0 #2CA3FF88;
+					color: #2CA3FF !important;
+
 				}
 
 				#main input[type="submit"].special:active,
