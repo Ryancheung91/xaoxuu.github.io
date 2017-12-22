@@ -3252,7 +3252,7 @@
 		background-color: #ffffff;
 		color: #666;
 		position: fixed;
-		top:0;
+		top: 0; /*置顶*/
 		width: 64em;
 		font-weight: bold;
 		max-width: calc(100% - 4em);
@@ -3262,8 +3262,26 @@
 		text-align: center;
 		letter-spacing: 0.08em;
 		box-shadow: 0 1px 4px 0 #0003;
-	}
 
+	}
+	@media screen and (max-width: 736px) {
+		#nav {
+			top: initial;
+			bottom: 0; /*底部*/
+		}
+	}
+	@media screen and (max-width: 480px) {
+		#nav {
+			top: initial;
+			bottom: 0; /*底部*/
+		}
+	}
+	@media screen and (max-width: 360px) {
+		#nav {
+			top: initial;
+			bottom: 0; /*底部*/
+		}
+	}
 		#nav input, #nav select, #nav textarea {
 			color: #636363;
 		}
