@@ -3256,11 +3256,13 @@
 		width: 64em;
 		font-weight: bold;
 		max-width: calc(100% - 4em);
-		border-bottom-left-radius: 0.25em;
-		border-bottom-right-radius: 0.25em;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius: 8px;
 		cursor: default;
 		text-align: center;
-		letter-spacing: 0.08em;
+		letter-spacing: 0.02em;
 		box-shadow: 0 1px 4px 0 #0003;
 
 	}
@@ -3268,18 +3270,30 @@
 		#nav {
 			top: initial;
 			bottom: 0; /*底部*/
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
 		}
 	}
 	@media screen and (max-width: 480px) {
 		#nav {
 			top: initial;
 			bottom: 0; /*底部*/
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
 		}
 	}
 	@media screen and (max-width: 360px) {
 		#nav {
 			top: initial;
 			bottom: 0; /*底部*/
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
 		}
 	}
 		#nav input, #nav select, #nav textarea {
@@ -3402,7 +3416,7 @@
 	#main {
 		background-color: #ffffff;
 		color: #636363;
-		border-radius: 0.25em;
+		border-radius: 8px;
 	}
 
 		#main input, #main select, #main textarea {
