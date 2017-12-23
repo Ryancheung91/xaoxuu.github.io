@@ -3848,7 +3848,21 @@
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
 	}
+		@media screen and (max-width: 736px) {
 
+			#wrapper {
+				max-width: calc(100% - 2em);
+			}
+			#nav {
+				max-width: 100%;
+				left: 0;
+				border-radius: 0;
+			}
+			#main {
+				border-radius: 8px;
+			}
+
+		}
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
@@ -3857,6 +3871,7 @@
 			#nav {
 				max-width: 100%;
 				left: 0;
+				border-radius: 0;
 			}
 			#main {
 				border-radius: 8px;
@@ -3872,6 +3887,7 @@
 			#nav {
 				max-width: 100%;
 				left: 0;
+				border-radius: 0;
 			}
 			#main {
 				border-radius: 8px;
