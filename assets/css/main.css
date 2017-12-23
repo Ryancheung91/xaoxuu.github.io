@@ -3262,7 +3262,7 @@
 		border-bottom-right-radius: 8px;
 		cursor: default;
 		text-align: center;
-		letter-spacing: 0.02em;
+		/*letter-spacing: 0.02em;*/
 		box-shadow: 0 1px 4px 0 #0003;
 
 	}
@@ -3280,20 +3280,14 @@
 		#nav {
 			top: initial;
 			bottom: 0; /*底部*/
-			border-top-left-radius: 8px;
-			border-top-right-radius: 8px;
-			border-bottom-left-radius: 0;
-			border-bottom-right-radius: 0;
+			border-radius: 0;
 		}
 	}
 	@media screen and (max-width: 360px) {
 		#nav {
 			top: initial;
 			bottom: 0; /*底部*/
-			border-top-left-radius: 8px;
-			border-top-right-radius: 8px;
-			border-bottom-left-radius: 0;
-			border-bottom-right-radius: 0;
+			border-radius: 0;
 		}
 	}
 		#nav input, #nav select, #nav textarea {
@@ -3861,7 +3855,8 @@
 				max-width: calc(100% - 2em);
 			}
 			#nav {
-				max-width: calc(100% - 2em);
+				max-width: 100%;
+				left: 0;
 			}
 
 		}
@@ -3872,16 +3867,11 @@
 				max-width: calc(100% - 1em);
 			}
 			#nav {
-				max-width: calc(100% - 1em);
+				max-width: 100%;
+				left: 0;
 			}
-			#main {
+			/*#main {
 				border-radius: 8px;
-			}
-			/*#wrapper {
-				max-width: 100%;
-			}
-			#nav {
-				max-width: 100%;
 			}*/
 
 		}
