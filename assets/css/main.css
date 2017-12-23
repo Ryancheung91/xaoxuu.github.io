@@ -3875,7 +3875,7 @@
 				max-width: calc(100% - 1em);
 			}
 			#main {
-				border-radius: 0.25em;
+				border-radius: 8px;
 			}
 			/*#wrapper {
 				max-width: 100%;
