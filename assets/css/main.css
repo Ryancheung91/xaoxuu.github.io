@@ -1623,7 +1623,7 @@
 	}
 
 	body {
-		background-color: #935d8c;
+		background-color: #52A1F8;
 		background-image: url("assets/images/overlay.png"), -moz-linear-gradient(45deg, #52A1F8 15%, #52A1F8 85%);
 		background-image: url("assets/images/overlay.png"), -webkit-linear-gradient(45deg, #52A1F8 15%, #52A1F8 85%);
 		background-image: url("assets/images/overlay.png"), -ms-linear-gradient(45deg, #52A1F8 15%, #52A1F8 85%);
@@ -1644,7 +1644,7 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #52A1F8;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2265,7 +2265,7 @@
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #52A1F8;
 	}
 
 	input[type="checkbox"]:focus + label:before,
