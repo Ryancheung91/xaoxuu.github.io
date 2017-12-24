@@ -3861,6 +3861,9 @@
 			#main {
 				border-radius: 8px;
 			}
+			#nav ul li a.active {
+				border-bottom-width: 3px;
+			}
 
 		}
 		@media screen and (max-width: 480px) {
@@ -3875,6 +3878,9 @@
 			}
 			#main {
 				border-radius: 8px;
+			}
+			#nav ul li a.active {
+				border-bottom-width: 3px;
 			}
 
 		}
@@ -3891,6 +3897,9 @@
 			}
 			#main {
 				border-radius: 8px;
+			}
+			#nav ul li a.active {
+				border-bottom-width: 3px;
 			}
 
 		}
