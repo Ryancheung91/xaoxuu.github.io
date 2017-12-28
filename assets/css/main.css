@@ -3497,11 +3497,10 @@
 				#main input[type="button"].special:hover,
 				#main button.special:hover,
 				#main .button.special:hover {
-					/*background-color: #52A1F8AA;
-					box-shadow: 0 0px 6px 0 #00000066;*/
-					background-color: #fff;
-					box-shadow: 0 0px 8px 0 #52A1F888;
-					color: #52A1F8 !important;
+					background-color: #2186f6; /*按钮*/
+					/*box-shadow: 0 0px 8px 0 #52A1F888;*/
+					transition: all 0.2s ease;
+					color: #ffffff !important;
 
 				}
 
