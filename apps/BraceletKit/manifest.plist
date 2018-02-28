@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/xaoxuu/BraceletKit/releases/download/1.0.0-beta1/BraceletKitDemo.ipa</string>
+					<string>https://github.com/xaoxuu/BraceletKit/releases/download/1.0.0-beta2/BraceletKitDemo.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -35,7 +35,7 @@
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>BraceletKit</string>
+				<string>手环调试助手</string>
 			</dict>
 		</dict>
 	</array>
