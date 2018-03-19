@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/xaoxuu/HeartMate/releases/download/1.0.0-beta5/HeartMate.ipa</string>
+					<string>https://github.com/xaoxuu/HeartMate/releases/download/1.0.0-beta6/HeartMate.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://github.com/xaoxuu/HeartMate/releases/download/1.0.0-beta1/HeartMate.57x57.png</string>
+					<string>https://github.com/xaoxuu/HeartMate/releases/download/1.0.0-beta6/HeartMate.57x57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://github.com/xaoxuu/HeartMate/releases/download/1.0.0-beta1/HeartMate.512x512.png</string>
+					<string>https://github.com/xaoxuu/HeartMate/releases/download/1.0.0-beta6/HeartMate.512x512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
