@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://github.com/xaoxuu/AXKit/releases/download/0.2.1/AXKitDemo.ipa</string>
+					<string>https://github.com/xaoxuu/AXKit/releases/download/0.2.2/AXKitDemo.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://user-images.githubusercontent.com/16400144/34292072-3e13adc8-e73a-11e7-9ecf-752cd74c92d7.png</string>
+					<string>https://github.com/xaoxuu/AXKit/releases/download/0.2.2/Appicon-120x120.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://user-images.githubusercontent.com/16400144/34292074-3e62a540-e73a-11e7-8583-c16e7fcd8cc9.png</string>
+					<string>https://github.com/xaoxuu/AXKit/releases/download/0.2.2/Appicon-512x512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
