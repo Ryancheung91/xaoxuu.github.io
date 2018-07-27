@@ -1884,7 +1884,7 @@ button,
 	height: 3em;
 	min-width: 12em;
 	border: 0;
-	border-radius: 4px;
+	border-radius: 8px;
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
@@ -1926,6 +1926,7 @@ button.fit,
 	display: block;
 	margin: 0 0 1em 0;
 	width: 100%;
+    background-color: #fff3;
 }
 
 input[type="submit"].small,
