@@ -1629,7 +1629,10 @@
 		background-image: url("assets/images/overlay.png"), -ms-linear-gradient(45deg, #52A1F8 15%, #52A1F8 85%);
 		background-image: url("assets/images/overlay.png"), linear-gradient(45deg, #52A1F8 15%, #52A1F8 85%); */
 
-        background: url("../../assets/images/firewatch_5k.jpg") no-repeat fixed 50% 20%;
+        background: url("../../assets/images/firewatch_5k.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 30%;
         background-size: cover;
 	}
 
@@ -3264,10 +3267,9 @@
 		border-bottom-left-radius: 8px;
 		border-bottom-right-radius: 8px;
 		cursor: default;
-		text-align: center;
+		/* text-align: center; */
 		/*letter-spacing: 0.02em;*/
 		box-shadow: 0 1px 4px 0 #0003;
-
 	}
 	@media screen and (max-width: 736px) {
 		#nav {
@@ -3330,7 +3332,7 @@
 			margin: 0;
 			padding: 0;
 			list-style: none;
-			font-size: .8em;
+			font-size: .9em;
 		}
 
 			#nav ul li {
@@ -3352,7 +3354,7 @@
 					display: inline-block;
 					/*height: 4em;*/
 					/*line-height: 2.25em;*/
-					padding: 1.2em 1.2em;
+					padding: 1.5em 1em;
 					border: 0;
 					/*margin: 2em 0;*/
 					/*border-radius: 8px;*/
@@ -3360,6 +3362,7 @@
 					border-color: #52A1F8;
 					text-decoration: none;
 					color: gray;
+
 					/*8cc9f0*/
 					/*box-shadow: inset 0 0 0 1px transparent;*/
 				}
@@ -3404,9 +3407,15 @@
 
 				#nav + #main {
 					padding-top: 0;
+                    margin-top: 1em;
 				}
 
 		}
+        @media screen and (max-width: 360px) {
+            #nav + #main {
+                margin-top: 0.5em;
+            }
+        }
 
 /* Main */
 
