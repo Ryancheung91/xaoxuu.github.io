@@ -1624,16 +1624,11 @@
 
 	body {
 		background-color: #52A1F8;
-		/* background-image: url("assets/images/overlay.png"), -moz-linear-gradient(45deg, #52A1F8 15%, #52A1F8 85%);
-		background-image: url("assets/images/overlay.png"), -webkit-linear-gradient(45deg, #52A1F8 15%, #52A1F8 85%);
-		background-image: url("assets/images/overlay.png"), -ms-linear-gradient(45deg, #52A1F8 15%, #52A1F8 85%);
-		background-image: url("assets/images/overlay.png"), linear-gradient(45deg, #52A1F8 15%, #52A1F8 85%); */
-
-        background: url("../../assets/images/firewatch_5k.jpg");
+        background-image: url("../images/firewatch_5k.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: 50% 30%;
-        background-size: cover;
+        background-size: auto 100%;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
