@@ -7,7 +7,7 @@
 <html>
 	<head>
 		<title>
-			NEXUS by xaoxuu
+			SmartLamp by xaoxuu
 		</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
@@ -26,15 +26,15 @@
 		<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 	</head>
 	<body>
-		<!-- NEXUS -->
+		<!-- SmartLamp -->
         <div id="wrapper">
-            <section id="NEXUS" class="main">
+            <section id="SmartLamp" class="main">
                 <header id="header" class="">
 					<br><br><br>
-					<img src="https://user-images.githubusercontent.com/16400144/34246769-e6d27b54-e66a-11e7-8089-8fa3b1c52c67.png" alt="" width="80px" style="border-radius:25%"/>
+					<img src="https://raw.githubusercontent.com/xaoxuu/SmartLamp/master/SmartLamp/Asset.xcassets/AppIcon.appiconset/Icon-60%403x.png" alt="" width="80px" style="border-radius:25%"/>
 					<h3>
-						NEXUS
-					</h3><p>open your windows <b>swiftly</b> and <b>gently</b></p>
+						SmartLamp
+					</h3><p>manager your lamp swiftly and gently</p>
 					<br><br><br>
                 </header>
                 <div id="main">
@@ -42,72 +42,90 @@
                         <div class="content">
                             <h3>
                                 <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;
-                                那么，什么是NEXUS？
+                                那么，什么是 SmartLamp ？
                             </h3>
                             <p>
-                                简单地说，就如同电脑管家+快捷搜索+激活工具集锦+……
-                                <br>
-                                NEXUS（魔枢）意为联接、沟通，在《魔兽》里翻译为魔枢，《星际迷航》里翻译为时汇。软件以此为名旨在连通问题与答案，终极目标即输入任何问题或需求，即可一步达到目的，成为一个信息的枢纽。
-                                <br>
-                                魔枢的方便之处在于：点击屏幕左上角，即可呼出搜索栏，此搜索栏对于一些常用的网站如[优酷]、[淘宝]等等可以直达官网，省去了搜索引擎检索的步骤。左上角热键是透明的，不影响视觉，只有在允许魔枢后台运行时才会生效。
+                                这是我的毕业设计项目。
+                            </p>
+                            <p>
+								界面使用最广泛的四页面设计，分别为：主页、情景、设备、发现。 <br>
+								主页是核心功能，实现一键连接蓝牙灯、自由调节颜色、亮度、设置定时关灯等功能。 <br>
+								情景页是保存用户设置的情景模式，可以根据使用场景不同快速切换至对应的工作模式。 <br>
+								设备页可以管理多台蓝牙灯。 <br>
+								发现页提供一些智能家居相关资讯。
                             </p>
                             <div class="box alt">
                                 <div class="row uniform">
-                                    <div class="12u">
+                                    <div class="3u">
                                         <span class="image fit">
-                                            <img src="https://xaoxuu.com/docs/nexus/img/QQ截图20170201180401.png"
+                                            <img src="https://xaoxuu.com/docs/smartlamp/img/IMG_0010.PNG"
                                             alt="" />
                                         </span>
                                     </div>
-                                    <div class="6u">
+                                    <div class="3u">
                                         <span class="image fit">
-                                            <img src="https://xaoxuu.com/docs/nexus/img/QQ截图20170201180248.png"
+                                            <img src="https://xaoxuu.com/docs/smartlamp/img/IMG_0001.PNG"
                                             alt="" />
                                         </span>
                                     </div>
-                                    <div class="6u">
+                                    <div class="3u">
                                         <span class="image fit">
-                                            <img src="https://xaoxuu.com/docs/nexus/img/QQ截图20170201180412.png"
+                                            <img src="https://xaoxuu.com/docs/smartlamp/img/IMG_0011.PNG"
                                             alt="" />
                                         </span>
                                     </div>
-                                    <div class="6u">
+                                    <div class="3u">
                                         <span class="image fit">
-                                            <img src="https://xaoxuu.com/docs/nexus/img/QQ截图20170201180426.png"
-                                            alt="" />
-                                        </span>
-                                    </div>
-                                    <div class="6u">
-                                        <span class="image fit">
-                                            <img src="https://xaoxuu.com/docs/nexus/img/QQ截图20170201180447.png"
+                                            <img src="https://xaoxuu.com/docs/smartlamp/img/IMG_0014.PNG"
                                             alt="" />
                                         </span>
                                     </div>
                                 </div>
                             </div>
-                            <p>
-                                遗憾的是：目前，NEXUS只适用于 Windows 7~10 平台的用户。
-                            </p>
                             <h3>
                                 <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;
-                                开始使用
+                                技术点
                             </h3>
-							<ul class="actions">
+							<h4>ATTitleBar</h4>
+							<ul>
+			                    <li>
+			                        支持横向滑动切换tab，并具有点击涟漪效果。
+			                    </li>
+			                    <li>
+			                        titlebar是在app中广泛应用的一种tab设计。我写的这个小框架模仿Google的Material Design设计，涟漪效果代码由MaterialControls框架改写。
+			                    </li>
+			                    <li>
+			                        页面较多时采用类似tableview的懒加载模式，只加载需要显示的几页，减少内存占用，提高流畅度。
+			                    </li>
+			                </ul>
+							<h4>ReactiveCocoa</h4>
+							<ul>
 								<li>
-									<a target="_self" class="button fit special icon fa-download" href="https://github.com/TitanStudio/NEXUS/releases/latest">
-										下载 v6.3
-									</a>
+									本项目大量使用了ReactiveCocoa框架进行响应式编程，大幅简化代码、提高可读性。
 								</li>
-									<li>
-										<a target="_self" class="button fit special icon fa-cube" href="https://github.com/TitanStudio/NEXUS/releases/download/v6.2/Extension20160207.exe">
-											扩展包（2016.02.07）
-										</a>
-									</li>
-
+								<li>
+									RAC的订阅机制使得一对多传值有了新的选择，如蓝牙中心设备。
+								</li>
+								<li>
+									RAC的信号监听机制使得我更容易根据需要定制个性化控件。如带翻转、旋转效果的tabbar、带缩放和回弹效果的slider等，使app的界面栩栩如生。
+								</li>
 							</ul>
-							<ul class="icons">
-
+							<h4>CBCentralManager</h4>
+							<ul>
+								<li>
+									CBCentralManager是蓝牙类app的核心，本项目在编写这部分代码时使用了链式语法进行封装，外界调用起来十分方便。
+								</li>
 							</ul>
+							<h4>ATCarouselView</h4>
+							<ul>
+								<li>
+									轮播图也是在app中广泛存在的一种自定义控件，我将这部分代码封装至ATKit中，以Pods导入方式使用，便于维护和扩展，同时也使得本项目代码更加简洁。
+								</li>
+								<li>
+									部分app的轮播图可以根据下方列表的滑动而改变高度或者添加蒙版效果，我目前实现了改变高度的功能。
+								</li>
+							</ul>
+
                         </div>
                     </section>
                 </div>
@@ -127,7 +145,7 @@
 								已归档！
                             </h3>
                             <p>
-                                这是一个已经归档的项目，最后一次更新时间是在2016年2月。
+                                这是一个已经归档的项目，最后一次更新时间是在2016年。
                             </p>
 						</div>
 					</section>
