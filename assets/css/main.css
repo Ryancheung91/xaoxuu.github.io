@@ -1775,18 +1775,18 @@ blockquote {
 }
 
 code {
-	margin: 0 0.25em;
+	margin: 0;
 	padding: 0.25em 0.65em;
 	border: solid 1px;
 	border-radius: 8px;
 	font-size: 0.9em;
-	font-family: Monaco, Menlo, "Ubuntu", "Courier New", monospace;
+	font-family: Menlo, Monaco, "Ubuntu", "Courier New", monospace;
 }
 
 pre {
-	/* margin: 0 0 2em 0; */
+	margin: 0 0 2em 0;
 	font-size: 0.9em;
-	font-family: Monaco, Menlo, "Ubuntu", "Courier New", monospace;
+	font-family: Menlo, Monaco, "Ubuntu", "Courier New", monospace;
 	-webkit-overflow-scrolling: touch;
 }
 
