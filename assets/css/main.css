@@ -3396,7 +3396,7 @@ body.is-loading #header.alt .logo {
 @media only screen and (width: 375px) {
     @media only screen and (-webkit-min-device-pixel-ratio: 3.0) {
 		#nav ul li a {
-            padding: 24px 8px;
+            padding: 20px 8px;
     	}
     }
 
