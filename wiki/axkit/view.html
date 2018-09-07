@@ -1,0 +1,437 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>@xaoxuu</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="alternate" hreflang="x-default" href="https://vuejs.org/wiki/axkit/view.html">
+    <link rel="alternate" hreflang="zh" href="https://cn.vuejs.org/wiki/axkit/view.html">
+    <link rel="alternate" hreflang="ja" href="https://jp.vuejs.org/wiki/axkit/view.html">
+    <link rel="alternate" hreflang="ru" href="https://ru.vuejs.org/wiki/axkit/view.html">
+    <link rel="alternate" hreflang="ko" href="https://kr.vuejs.org/wiki/axkit/view.html">
+    <link rel="alternate" hreflang="pt-BR" href="https://br.vuejs.org/wiki/axkit/view.html">
+    <link rel="alternate" hreflang="fr" href="https://fr.vuejs.org/wiki/axkit/view.html">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Vue.js">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://cn.vuejs.org//images/logo.png">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Vue.js">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://cn.vuejs.org/images/logo.png">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+    <meta name="msapplication-TileImage" content="/images/icons/ms-icon-144x144.png">
+    <link rel="icon" href="/images/logo.png" type="image/png">
+
+    <meta name="msapplication-TileColor" content="#4fc08d">
+    <meta name="theme-color" content="#4fc08d">
+
+    <meta name="msapplication-config" content="browserconfig.xml">
+    <link rel="manifest" href="/manifest.json">
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+    <!-- <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='//fonts.googleapis.com/css?family=Dosis:500&text=Vue.js' rel='stylesheet' type='text/css'> -->
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- main page styles -->
+    <link rel="stylesheet" href="/css/page.css">
+
+    <!-- this needs to be loaded before guide's inline scripts -->
+    <script src="/js/vue.js"></script>
+    <script>
+      Vue.config.productionTip = false
+      window.PAGE_TYPE = ""
+    </script>
+
+    <!-- ga -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-46852172-3', 'cn.vuejs.org');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body class="docs">
+    <div id="mobile-bar" >
+      <a class="menu-button"></a>
+      <a class="logo" href="/"></a>
+    </div>
+    <div id="header">
+  <a id="logo" href="/">
+    <img src="/images/logo.png" alt="vue logo">
+    <span>@xaoxuu</span>
+  </a>
+  <ul id="nav">
+    <li>
+  <form id="search-form">
+    <input type="text" id="search-query-nav" class="search-query st-default-search-input">
+  </form>
+</li>
+<li class="nav-dropdown-container projects">
+  <a class="nav-link current" href="/projects/"><i class='fa fa-cube fa-fw'></i>&nbsp;项目</a>
+  <ul class="nav-dropdown">
+    <li><h4>Cocoapods</h4></li>
+    <li><ul>
+      <li><a href="/wiki/axkit/" class="nav-link current">AXKit</a></li>
+      <li><a href="/wiki/noticeboard/" class="nav-link ">NoticeBoard</a></li>
+    </ul></li>
+    <li><h4>Applications</h4></li>
+    <li>
+      <ul>
+        <li><a href="/wiki/heartmate/" class="nav-link ">HeartMate</a></li>
+        <li><a href="/wiki/smartlamp/" class="nav-link ">SmartLamp</a></li>
+      </ul>
+    </li>
+    <li><h4>Windows</h4></li>
+    <li>
+      <ul>
+        <li><a href="/wiki/nexus/" class="nav-link ">NEXUS</a></li>
+      </ul>
+    </li>
+    <li><h4>Hexo Theme</h4></li>
+    <li>
+      <ul>
+        <li><a href="/wiki/material-x/" class="nav-link ">Material X</a></li>
+      </ul>
+    </li>
+    <li><h4>Shell Scripts</h4></li>
+    <li>
+      <ul>
+        <li><a href="/wiki/hexo.sh/https://xaoxuu.com/wiki/hexo.sh/" class="nav-link ">hexo.sh</a></li>
+        <li><a href="/wiki/podspec.sh/https://xaoxuu.com/wiki/podspec.sh/" class="nav-link ">podspec.sh</a></li>
+      </ul>
+    </li>
+
+
+  </ul>
+</li>
+
+<li class="nav blog">
+  <a class="nav-link" target="_blank" href="//blog.xaoxuu.com"><i class='fa fa-rss fa-fw'></i>&nbsp;博客</a>
+</li>
+
+<li class="nav downloads">
+  <a class="nav-link " href="/downloads/"><i class='fa fa-download fa-fw'></i>&nbsp;下载</a>
+</li>
+
+<li class="nav bookmarks">
+  <a class="nav-link " href="/bookmarks/"><i class='fa fa-star fa-fw'></i>&nbsp;书签</a>
+</li>
+
+<li class="nav about">
+  <a class="nav-link " href="/about/"><i class='fa fa-user fa-fw'></i>&nbsp;关于</a>
+</li>
+
+<!-- <li class="nav-dropdown-container learn">
+  <a class="nav-link">学习</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><ul>
+      <li><a href="/v2/guide/" class="nav-link">教程</a></li>
+      <li><a href="/v2/api/" class="nav-link">API</a></li>
+      <li><a href="/v2/style-guide/" class="nav-link">风格指南</a></li>
+      <li><a href="/v2/examples/" class="nav-link">示例</a></li>
+      <li><a href="/v2/cookbook/" class="nav-link">Cookbook</a></li>
+    </ul></li>
+  </ul>
+</li>
+ -->
+
+<!-- <li>
+  <a href="/v2/guide/team.html" class="nav-link team">团队</a>
+</li> -->
+<!-- <li class="nav-dropdown-container support-vue">
+  <a href="/support-vuejs/" class="nav-link">支持 Vue</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><ul>
+      <li><a href="/support-vuejs/#One-time-Donations" class="nav-link">一次性赞助</a></li>
+      <li><a href="/support-vuejs/#Recurring-Pledges" class="nav-link">周期性赞助</a></li>
+      <li><a href="https://www.smallsticker.com/%E8%B4%B4%E7%BA%B8/vue.html" class="nav-link">贴纸</a></li>
+      <li><a href="https://vue.threadless.com" target="_blank" class="nav-link">T 恤商店</a></li>
+    </ul></li>
+  </ul>
+</li>
+ -->
+<!-- <li class="nav-dropdown-container language">
+  <a class="nav-link">多语言</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><a href="https://vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">English</a></li>
+    <li><a href="https://jp.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">日本語</a></li>
+    <li><a href="https://ru.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">Русский</a></li>
+    <li><a href="https://kr.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">한국어</a></li>
+    <li><a href="https://br.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">Português</a></li>
+    <li><a href="https://fr.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">Français</a></li>
+    <li><a href="https://vi.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">Tiếng Việt</a></li>
+  </ul>
+</li>
+ -->
+<!-- <li><a href="https://github.com/vuejs/cn.vuejs.org/" target="_blank" class="nav-link contribute">GitHub</a></li> -->
+
+  </ul>
+</div>
+
+    
+      <div id="main" class="fix-sidebar">
+        
+          
+  <div class="sidebar">
+    <ul class="main-menu">
+      <li>
+  <form id="search-form">
+    <input type="text" id="search-query-sidebar" class="search-query st-default-search-input">
+  </form>
+</li>
+<li class="nav-dropdown-container projects">
+  <a class="nav-link current" href="/projects/"><i class='fa fa-cube fa-fw'></i>&nbsp;项目</a>
+  <ul class="nav-dropdown">
+    <li><h4>Cocoapods</h4></li>
+    <li><ul>
+      <li><a href="/wiki/axkit/" class="nav-link current">AXKit</a></li>
+      <li><a href="/wiki/noticeboard/" class="nav-link ">NoticeBoard</a></li>
+    </ul></li>
+    <li><h4>Applications</h4></li>
+    <li>
+      <ul>
+        <li><a href="/wiki/heartmate/" class="nav-link ">HeartMate</a></li>
+        <li><a href="/wiki/smartlamp/" class="nav-link ">SmartLamp</a></li>
+      </ul>
+    </li>
+    <li><h4>Windows</h4></li>
+    <li>
+      <ul>
+        <li><a href="/wiki/nexus/" class="nav-link ">NEXUS</a></li>
+      </ul>
+    </li>
+    <li><h4>Hexo Theme</h4></li>
+    <li>
+      <ul>
+        <li><a href="/wiki/material-x/" class="nav-link ">Material X</a></li>
+      </ul>
+    </li>
+    <li><h4>Shell Scripts</h4></li>
+    <li>
+      <ul>
+        <li><a href="/wiki/hexo.sh/https://xaoxuu.com/wiki/hexo.sh/" class="nav-link ">hexo.sh</a></li>
+        <li><a href="/wiki/podspec.sh/https://xaoxuu.com/wiki/podspec.sh/" class="nav-link ">podspec.sh</a></li>
+      </ul>
+    </li>
+
+
+  </ul>
+</li>
+
+<li class="nav blog">
+  <a class="nav-link" target="_blank" href="//blog.xaoxuu.com"><i class='fa fa-rss fa-fw'></i>&nbsp;博客</a>
+</li>
+
+<li class="nav downloads">
+  <a class="nav-link " href="/downloads/"><i class='fa fa-download fa-fw'></i>&nbsp;下载</a>
+</li>
+
+<li class="nav bookmarks">
+  <a class="nav-link " href="/bookmarks/"><i class='fa fa-star fa-fw'></i>&nbsp;书签</a>
+</li>
+
+<li class="nav about">
+  <a class="nav-link " href="/about/"><i class='fa fa-user fa-fw'></i>&nbsp;关于</a>
+</li>
+
+<!-- <li class="nav-dropdown-container learn">
+  <a class="nav-link">学习</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><ul>
+      <li><a href="/v2/guide/" class="nav-link">教程</a></li>
+      <li><a href="/v2/api/" class="nav-link">API</a></li>
+      <li><a href="/v2/style-guide/" class="nav-link">风格指南</a></li>
+      <li><a href="/v2/examples/" class="nav-link">示例</a></li>
+      <li><a href="/v2/cookbook/" class="nav-link">Cookbook</a></li>
+    </ul></li>
+  </ul>
+</li>
+ -->
+
+<!-- <li>
+  <a href="/v2/guide/team.html" class="nav-link team">团队</a>
+</li> -->
+<!-- <li class="nav-dropdown-container support-vue">
+  <a href="/support-vuejs/" class="nav-link">支持 Vue</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><ul>
+      <li><a href="/support-vuejs/#One-time-Donations" class="nav-link">一次性赞助</a></li>
+      <li><a href="/support-vuejs/#Recurring-Pledges" class="nav-link">周期性赞助</a></li>
+      <li><a href="https://www.smallsticker.com/%E8%B4%B4%E7%BA%B8/vue.html" class="nav-link">贴纸</a></li>
+      <li><a href="https://vue.threadless.com" target="_blank" class="nav-link">T 恤商店</a></li>
+    </ul></li>
+  </ul>
+</li>
+ -->
+<!-- <li class="nav-dropdown-container language">
+  <a class="nav-link">多语言</a><span class="arrow"></span>
+  <ul class="nav-dropdown">
+    <li><a href="https://vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">English</a></li>
+    <li><a href="https://jp.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">日本語</a></li>
+    <li><a href="https://ru.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">Русский</a></li>
+    <li><a href="https://kr.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">한국어</a></li>
+    <li><a href="https://br.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">Português</a></li>
+    <li><a href="https://fr.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">Français</a></li>
+    <li><a href="https://vi.vuejs.org/wiki/axkit/view.html" class="nav-link" target="_blank">Tiếng Việt</a></li>
+  </ul>
+</li>
+ -->
+<!-- <li><a href="https://github.com/vuejs/cn.vuejs.org/" target="_blank" class="nav-link contribute">GitHub</a></li> -->
+
+    </ul>
+  </div>
+
+<div class="content  ">
+  
+  
+  
+    <h1 id="View"><a href="#View" class="headerlink" title="View"></a>View</h1><h2 id="简单动画"><a href="#简单动画" class="headerlink" title="简单动画"></a>简单动画</h2><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#pragma mark - build in</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> build in 动画</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param scale      缩放比例</span></span><br><span class="line"><span class="comment"> @param duration   持续时间</span></span><br><span class="line"><span class="comment"> @param completion 完成后执行</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_animatedScaleIn:(<span class="built_in">CGFloat</span>)scale duration:(<span class="built_in">NSTimeInterval</span>)duration completion:(<span class="keyword">void</span> (^)(<span class="built_in">BOOL</span> finished))completion;</span><br><span class="line"></span><br><span class="line"><span class="meta">#pragma mark - action</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 动画</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param scale      缩放比例</span></span><br><span class="line"><span class="comment"> @param duration   持续时间</span></span><br><span class="line"><span class="comment"> @param completion 完成后执行</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_animatedScale:(<span class="built_in">CGFloat</span>)scale duration:(<span class="built_in">NSTimeInterval</span>)duration completion:(<span class="keyword">void</span> (^)(<span class="built_in">BOOL</span> finished))completion;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">#pragma mark - build out</span></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> build out 动画</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param scale      缩放比例</span></span><br><span class="line"><span class="comment"> @param duration   持续时间</span></span><br><span class="line"><span class="comment"> @param completion 完成后执行</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_animatedScaleOut:(<span class="built_in">CGFloat</span>)scale duration:(<span class="built_in">NSTimeInterval</span>)duration completion:(<span class="keyword">void</span> (^)(<span class="built_in">BOOL</span> finished))completion;</span><br></pre></td></tr></table></figure>
+<h2 id="创建一个指定高的view"><a href="#创建一个指定高的view" class="headerlink" title="创建一个指定高的view"></a>创建一个指定高的view</h2><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 创建一个指定高的view</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param height 高度</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @return view</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="built_in">CG_EXTERN</span> <span class="built_in">UIView</span> *<span class="built_in">UIViewWithHeight</span>(<span class="built_in">CGFloat</span> height);</span><br></pre></td></tr></table></figure>
+<h2 id="读取xib"><a href="#读取xib" class="headerlink" title="读取xib"></a>读取xib</h2><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 从xib加载view</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param name xib名</span></span><br><span class="line"><span class="comment"> @return view</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="built_in">CG_EXTERN</span> __kindof <span class="built_in">UIView</span> *<span class="built_in">UIViewFromNibNamed</span>(<span class="built_in">NSString</span> *name);</span><br></pre></td></tr></table></figure>
+<h2 id="对view的layer进行若干操作"><a href="#对view的layer进行若干操作" class="headerlink" title="对view的layer进行若干操作"></a>对view的layer进行若干操作</h2><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 对view的layer进行若干操作</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param layer layer</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_layer:(<span class="keyword">void</span> (^)(<span class="built_in">CALayer</span> *layer))layer;</span><br></pre></td></tr></table></figure>
+<h2 id="获取view所在的控制器"><a href="#获取view所在的控制器" class="headerlink" title="获取view所在的控制器"></a>获取view所在的控制器</h2><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 当前view所在的控制器controller</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @return 控制器controller</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">nullable</span> <span class="built_in">UIViewController</span> *)controller;</span><br></pre></td></tr></table></figure>
+<h2 id="Subview"><a href="#Subview" class="headerlink" title="Subview"></a>Subview</h2><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 移除所有子视图</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param subClass 指定范围（只移除属于哪个类的子视图，传入nil时移除所有子视图）</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_removeAllSubviews:(<span class="keyword">nullable</span> Class)subClass;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 让每个子视图执行一段代码</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param subClass 指定范围（属于哪个类的子视图，传入nil时代表所有子视图）</span></span><br><span class="line"><span class="comment"> @param action   子视图所执行的代码块</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_eachSubview:(<span class="keyword">nullable</span> Class)subClass action:(<span class="keyword">void</span> (^)(__kindof <span class="built_in">UIView</span> *subview))action;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 让每个UILabel执行一段代码</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param action 要执行的代码</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_eachLabelInvokeAction:(<span class="keyword">void</span> (^)(__kindof <span class="built_in">UILabel</span> *label))action;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 让每个UITextField执行一段代码</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param action 要执行的代码</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_eachTextFieldInvokeAction:(<span class="keyword">void</span> (^)(__kindof <span class="built_in">UITextField</span> *textField))action;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 让每个UITextView执行一段代码</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param action 要执行的代码</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_eachTextViewInvokeAction:(<span class="keyword">void</span> (^)(__kindof <span class="built_in">UITextView</span> *textView))action;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 让每个UIButton执行一段代码</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param action 要执行的代码</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_eachButtonInvokeAction:(<span class="keyword">void</span> (^)(__kindof <span class="built_in">UIButton</span> *button))action;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 让每个UIImageView执行一段代码</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param action 要执行的代码</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_eachImageViewInvokeAction:(<span class="keyword">void</span> (^)(__kindof <span class="built_in">UIImageView</span> *imageView))action;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 让每个tag在指定范围的子视图执行一段代码</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param tagRange 指定tag取值范围</span></span><br><span class="line"><span class="comment"> @param action 要执行的代码</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_eachSubviewWithTagsInRange:(AXIntegerRange)tagRange action:(<span class="keyword">void</span> (^)(__kindof <span class="built_in">UIView</span> *subview))action;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 让每个tag等于某个值的子视图执行一段代码</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param tag 指定tag值</span></span><br><span class="line"><span class="comment"> @param action 要执行的代码</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_eachSubviewWithTag:(<span class="built_in">NSInteger</span>)tag action:(<span class="keyword">void</span> (^)(__kindof <span class="built_in">UIView</span> *subview))action;</span><br></pre></td></tr></table></figure>
+<h2 id="frame"><a href="#frame" class="headerlink" title="frame"></a>frame</h2><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#pragma mark - property</span></span><br><span class="line"><span class="comment">// frame.origin</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGPoint</span> origin;</span><br><span class="line"><span class="comment">// frame.size</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGSize</span>  size;</span><br><span class="line"><span class="comment">// frame.size.width</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> width;</span><br><span class="line"><span class="comment">// frame.size.height</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> height;</span><br><span class="line"><span class="comment">// frame.origin.x</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> left;</span><br><span class="line"><span class="comment">// frame.origin.x + frame.size.width</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> right;</span><br><span class="line"><span class="comment">// frame.origin.y</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> top;</span><br><span class="line"><span class="comment">// frame.origin.y + frame.size.height</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> bottom;</span><br><span class="line"></span><br><span class="line"><span class="meta">#pragma mark frame center</span></span><br><span class="line"><span class="comment">// frame.origin.x + 0.5 * frame.size.width</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> centerX;</span><br><span class="line"><span class="comment">// frame.origin.y + 0.5 * frame.size.height</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readwrite</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> centerY;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="meta">#pragma mark bounds center</span></span><br><span class="line"><span class="comment">// bounds.center</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readonly</span>, <span class="keyword">assign</span>) <span class="built_in">CGPoint</span> boundsCenter;</span><br><span class="line"><span class="comment">// 0.5 * frame.size.width</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readonly</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> boundsCenterX;</span><br><span class="line"><span class="comment">// 0.5 * frame.size.height</span></span><br><span class="line"><span class="keyword">@property</span> (<span class="keyword">nonatomic</span>, <span class="keyword">readonly</span>, <span class="keyword">assign</span>) <span class="built_in">CGFloat</span> boundsCenterY;</span><br></pre></td></tr></table></figure>
+<h2 id="手势"><a href="#手势" class="headerlink" title="手势"></a>手势</h2><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 处理tap手势</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param handler 处理手势的block</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addTapGestureHandler:(<span class="keyword">void</span> (^)(<span class="built_in">UITapGestureRecognizer</span> *sender))handler;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 添加一个tap手势，并处理</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param tap     tap</span></span><br><span class="line"><span class="comment"> @param handler 处理手势的block</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addTapGesture:(<span class="keyword">nullable</span> <span class="keyword">void</span> (^)(<span class="built_in">UITapGestureRecognizer</span> *sender))tap handler:(<span class="keyword">void</span> (^)(<span class="built_in">UITapGestureRecognizer</span> *sender))handler;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 添加一个tap手势，并处理，附加动画效果</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param tap      tap</span></span><br><span class="line"><span class="comment"> @param handler  处理手势的block</span></span><br><span class="line"><span class="comment"> @param scale    动画比例</span></span><br><span class="line"><span class="comment"> @param duration 持续时间</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addTapGesture:(<span class="keyword">nullable</span> <span class="keyword">void</span> (^)(<span class="built_in">UITapGestureRecognizer</span> *sender))tap handler:(<span class="keyword">void</span> (^)(<span class="built_in">UITapGestureRecognizer</span> *sender))handler animatedScale:(<span class="built_in">CGFloat</span>)scale duration:(<span class="built_in">NSTimeInterval</span>)duration;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 添加一个双击手势，并处理</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param doubleTap double tap</span></span><br><span class="line"><span class="comment"> @param duration  双击间隔时间</span></span><br><span class="line"><span class="comment"> @param handler   处理手势的block</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addDoubleTapGesture:(<span class="keyword">nullable</span> <span class="keyword">void</span> (^)(<span class="built_in">UITapGestureRecognizer</span> *sender))doubleTap duration:(<span class="built_in">NSTimeInterval</span>)duration handler:(<span class="keyword">void</span> (^)(<span class="built_in">UITapGestureRecognizer</span> *sender))handler;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 添加一个长按手势，并处理</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param longPress 长按手势</span></span><br><span class="line"><span class="comment"> @param handler   处理手势的block</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addLongPressGesture:(<span class="keyword">nullable</span> <span class="keyword">void</span> (^)(<span class="built_in">UILongPressGestureRecognizer</span> *sender))longPress handler:(<span class="keyword">void</span> (^)(<span class="built_in">UILongPressGestureRecognizer</span> *sender))handler;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 添加一个轻扫手势，并处理</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param swipe   轻扫</span></span><br><span class="line"><span class="comment"> @param handler 处理手势的block</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addSwipeGesture:(<span class="keyword">nullable</span> <span class="keyword">void</span> (^)(<span class="built_in">UISwipeGestureRecognizer</span> *sender))swipe handler:(<span class="keyword">void</span> (^)(<span class="built_in">UISwipeGestureRecognizer</span> *sender))handler;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 添加一个滑动手势，并处理</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param pan     滑动</span></span><br><span class="line"><span class="comment"> @param handler 处理手势的block</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addPanGesture:(<span class="keyword">nullable</span> <span class="keyword">void</span> (^)(<span class="built_in">UIPanGestureRecognizer</span> *sender))pan handler:(<span class="keyword">void</span> (^)(<span class="built_in">UIPanGestureRecognizer</span> *sender))handler;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 添加一个屏幕边缘滑动手势，并处理</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> @param screenEdgePan  屏幕边缘滑动</span></span><br><span class="line"><span class="comment"> @param handler        处理手势的block</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addScreenEdgePanGesture:(<span class="keyword">nullable</span> <span class="keyword">void</span> (^)(<span class="built_in">UIScreenEdgePanGestureRecognizer</span> *sender))screenEdgePan handler:(<span class="keyword">void</span> (^)(<span class="built_in">UIScreenEdgePanGestureRecognizer</span> *sender))handler;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 添加一个双指缩放手势，并处理</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param pinch   双指缩放手势</span></span><br><span class="line"><span class="comment"> @param handler 处理手势的block</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> sender.view.transform = CGAffineTransformScale(sender.view.transform, sender.scale, sender.scale);</span></span><br><span class="line"><span class="comment"> sender.scale = 1;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addPinchGesture:(<span class="keyword">nullable</span> <span class="keyword">void</span> (^)(<span class="built_in">UIPinchGestureRecognizer</span> *sender))pinch handler:(<span class="keyword">void</span> (^)(<span class="built_in">UIPinchGestureRecognizer</span> *sender))handler;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> 添加一个双指旋转手势，并处理</span></span><br><span class="line"><span class="comment"></span></span><br><span class="line"><span class="comment"> @param rotation 双指旋转手势</span></span><br><span class="line"><span class="comment"> @param handler  处理手势的block</span></span><br><span class="line"><span class="comment"> </span></span><br><span class="line"><span class="comment"> sender.view.transform = CGAffineTransformRotate(sender.view.transform, sender.rotation);</span></span><br><span class="line"><span class="comment"> sender.rotation = 0;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">- (<span class="keyword">void</span>)ax_addRotationGesture:(<span class="keyword">nullable</span> <span class="keyword">void</span> (^)(<span class="built_in">UIRotationGestureRecognizer</span> *sender))rotation handler:(<span class="keyword">void</span> (^)(<span class="built_in">UIRotationGestureRecognizer</span> *sender))handler;</span><br></pre></td></tr></table></figure>
+
+  
+  
+  
+  
+    <h2 id="评论"><i class="fa fa-comments fa-fw" aria-hidden="true">&nbsp;</i>评论</h2>
+    <section id="comments">
+      <div id="valine_container" class="valine_thread">
+        <i class="fa fa-spinner fa-spin fa-fw"></i>
+      </div>
+    </section>
+    <script>
+      var GUEST_INFO = ['nick','mail','link'];
+      var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+        return GUEST_INFO.indexOf(item) > -1
+      });
+      var notify = 'false' == true;
+      var verify = 'false' == true;
+      var valine = new Valine();
+      valine.init({
+        el: '#valine_container',
+        notify: notify,
+        verify: verify,
+        guest_info: guest_info,
+        appId: "9NJ4wSvxCJ4Yws4mbTq8WvuS-gzGzoHsz",
+        appKey: "O33p1gnzt8aGUJDY5JwDTszJ",
+        placeholder: "快来评论吧~",
+        pageSize:'10',
+        avatar:'mp',
+        lang:'zh-cn'
+      })
+    </script>
+  
+
+
+  <!-- <div class="footer">
+
+    发现错误？想参与编辑？
+    <a href="https://github.com/vuejs/cn.vuejs.org/blob/master/src/wiki/axkit/view.md" target="_blank">
+      在 GitHub 上编辑此页！
+    </a>
+
+  </div> -->
+
+</div>
+
+        
+      </div>
+      <script src="/js/smooth-scroll.min.js"></script>
+    
+
+    <footer id="footer">
+      
+        <div class="social-wrapper">
+          
+            
+              <a href="mailto:me@xaoxuu.com" class="social fa fa-envelope" target="_blank" rel="external"></a>
+            
+          
+            
+              <a href="https://github.com/xaoxuu" class="social fa fa-github" target="_blank" rel="external"></a>
+            
+          
+            
+              <a href="https://www.instagram.com/xaoxuu" class="social fa fa-instagram" target="_blank" rel="external"></a>
+            
+          
+            
+              <a href="https://twitter.com/xaoxuu" class="social fa fa-twitter" target="_blank" rel="external"></a>
+            
+          
+            
+              <a href="https://music.163.com/#/user/home?id=63035382" class="social fa fa-music" target="_blank" rel="external"></a>
+            
+          
+        </div>
+      
+      <p><a href="#">Copyright &copy; 2013-2018 Titan Studio</a></p>
+    </footer>
+    <!-- main custom script for sidebars, version selects etc. -->
+    <script src="/js/css.escape.js"></script>
+    <script src="/js/common.js"></script>
+
+    <!-- search -->
+    <link href="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/search.css">
+    <script src="//cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
+    <script>
+    [
+      '#search-query-nav',
+      '#search-query-sidebar',
+      '#search-query-menu'
+    ].forEach(function (selector) {
+      if (!document.querySelector(selector)) return
+      // search index defaults to v2
+      var match = window.location.pathname.match(/^\/(v\d+)/)
+      var version = match ? match[1] : 'v2'
+      docsearch({
+      appId: 'BH4D9OD16A',
+      apiKey: '5638280abff9d207417bb03be05f0b25',
+      indexName: 'vuejs_cn2',
+      inputSelector: selector,
+      algoliaOptions: { facetFilters: ["version:" + version] }
+      })
+    })
+    </script>
+
+    <!-- fastclick -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      FastClick.attach(document.body)
+    }, false)
+    </script>
+  </body>
+</html>
