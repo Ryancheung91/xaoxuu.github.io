@@ -1,0 +1,3 @@
+[submodule "themes/vuex"]
+	path = themes/vuex
+	url = https://xaoxuu@github.com/xaoxuu/hexo-theme-vuex.git
