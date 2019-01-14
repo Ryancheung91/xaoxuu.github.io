@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>xaoxuu&#39;s blog</title>
+  <icon>https://www.gravatar.com/avatar/adb7d1cd192658a55c0ad22a3309cecf</icon>
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://xaoxuu.com/blog/"/>
+  <updated>2018-08-09T16:00:00.000Z</updated>
+  <id>https://xaoxuu.com/blog/</id>
+  
+  <author>
+    <name>xaoxuu</name>
+    <email>me@xaoxuu.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用 NoticeBoard 迅捷而优雅地发布通知</title>
+    <link href="https://xaoxuu.com/blog/2018-07-30-noticeboard/"/>
+    <id>https://xaoxuu.com/blog/2018-07-30-noticeboard/</id>
+    <published>2018-07-29T16:00:00.000Z</published>
+    <updated>2018-08-09T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Android 有原生的 &lt;a href=&quot;http://wiki.jikexueyuan.com/project/material-design/components/snackbars-and-toasts.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;SnackBar&lt;/a&gt; ，iOS 没有与之相似的原生控件，GitHub 上好像也没有找到特别好用的开源库。&lt;/p&gt;&lt;p&gt;既然在 Android 平台上能够作为原生控件存在，足以说明这种需求不算太不小众，在 iOS 端，类似的需求可能被 UIAlertController、MBProgressHUD 来替代，但是他们都需要打断用户当前正在进行的事情，体验很不好。GitHub 上有一个开源库 NoticeBar ，模仿QQ的实现效果，虽然有200+的Star，个人感觉 UI 和可定制性都不够理想，于是自己写了一个模仿系统原生通知样式的易于定制的 &lt;strong&gt;&lt;a href=&quot;https://github.com/xaoxuu/NoticeBoard&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;NoticeBoard&lt;/a&gt;&lt;/strong&gt;，下面请看截图和演示效果：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="开源库" scheme="https://xaoxuu.com/blog/tags/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS 开发工程师面试心得</title>
+    <link href="https://xaoxuu.com/blog/2018-05-05-ios-interview/"/>
+    <id>https://xaoxuu.com/blog/2018-05-05-ios-interview/</id>
+    <published>2018-05-04T16:00:00.000Z</published>
+    <updated>2018-05-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近找工作已经面试了6家公司，既有初创公司也有上市公司，现利用周末时间总结一下面试被问的频率高的技术问题，本文最近几天会持续更新。&lt;/p&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align:left&quot;&gt;技术点&lt;/th&gt;&lt;th style=&quot;text-align:left&quot;&gt;频率&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;Runtime机制及其应用&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;RunLoop原理及其应用&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;多线程技术&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;网络技术&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;内存管理理解及其应用&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;性能优化&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;系统架构设计&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★☆&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;Block&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★☆&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;CoreGraphics、UIBezierPath、CoreAnimation&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★☆&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;数据结构和算法&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★☆&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;第三方库&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★☆☆&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;其中智能硬件行业的公司会问蓝牙BLE的技术点：数据分包、传输、校验、加密。&lt;br&gt;另外，&lt;a href=&quot;https://xaoxuu.com/wiki/axkit/&quot;&gt;AXKit&lt;/a&gt;（个人开源库）的简介中的功能的实现思路也是必问的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>整理混乱不堪的各国语言翻译</title>
+    <link href="https://xaoxuu.com/blog/2017-12-25-merge-localizable-strings/"/>
+    <id>https://xaoxuu.com/blog/2017-12-25-merge-localizable-strings/</id>
+    <published>2017-12-24T16:00:00.000Z</published>
+    <updated>2017-12-24T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;现状&quot;&gt;&lt;a href=&quot;#现状&quot; class=&quot;headerlink&quot; title=&quot;现状&quot;&gt;&lt;/a&gt;现状&lt;/h2&gt;&lt;p&gt;linksmart项目截止目前已经支持了17个国家的语言，从诞生到现在也已经经历了很多程序员的修改和维护，代码已经变得十分混乱。因为公司一直在接新的定制项目，所以也没有时间进行一次彻底的重构，只能在维护某方面的BUG的时候，对相关代码进行局部重构。现在的情况是：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;同一个文本有些语言有翻译，有些语言没有翻译。&lt;/li&gt;&lt;li&gt;有些需要使用缩进的地方，由于某种原因，并没有使用&lt;code&gt;UIEdgeInsets&lt;/code&gt;进行缩进，而是在文本前后加空格。(⊙﹏⊙)b&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;整理思路&quot;&gt;&lt;a href=&quot;#整理思路&quot; class=&quot;headerlink&quot; title=&quot;整理思路&quot;&gt;&lt;/a&gt;整理思路&lt;/h2&gt;&lt;p&gt;首先必须得找出一种合适的方法维护这些Localizable.strings，在Excel里做一个总表，增加语言的时候，可以直接把英文的一列发给客户进行翻译。最大的优势是：随时可以用脚本把Excel里的所有语言导出成项目支持的Localizable.strings文件，极大提高效率。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS 推迟而不重复执行函数</title>
+    <link href="https://xaoxuu.com/blog/2017-11-09-gcd-delay/"/>
+    <id>https://xaoxuu.com/blog/2017-11-09-gcd-delay/</id>
+    <published>2017-11-08T16:00:00.000Z</published>
+    <updated>2017-11-09T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果你想推迟执行一段代码，使用&lt;code&gt;dispatch_after&lt;/code&gt;函数可以轻易实现，但有时候我们想在它delay的期间再次delay，直到最终不再delay的时候，才真正的被调用一次。这就需要每次先将旧的事件取消，然后重新设置delay。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="Swift" scheme="https://xaoxuu.com/blog/tags/swift/"/>
+    
+      <category term="objc" scheme="https://xaoxuu.com/blog/tags/objc/"/>
+    
+      <category term="GCD" scheme="https://xaoxuu.com/blog/tags/gcd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AXChartView 一个简单而漂亮的图表工具类</title>
+    <link href="https://xaoxuu.com/blog/2017-09-14-chartview/"/>
+    <id>https://xaoxuu.com/blog/2017-09-14-chartview/</id>
+    <published>2017-09-13T16:00:00.000Z</published>
+    <updated>2017-09-13T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/亲亲.gif&quot; data-original=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/posts/2017/5da30e66c4dbd6335d4f77f5aa789174bab926.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;简单美观的统计图表，真的只有一个类！&lt;/p&gt;&lt;h2 id=&quot;源码下载&quot;&gt;&lt;a href=&quot;#源码下载&quot; class=&quot;headerlink&quot; title=&quot;源码下载&quot;&gt;&lt;/a&gt;源码下载&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;下载地址： &lt;a href=&quot;https://github.com/xaoxuu/AXChartView/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://github.com/xaoxuu/AXChartView/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="图表" scheme="https://xaoxuu.com/blog/tags/%E5%9B%BE%E8%A1%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git 命令及客户端的详细使用</title>
+    <link href="https://xaoxuu.com/blog/2017-08-24-git/"/>
+    <id>https://xaoxuu.com/blog/2017-08-24-git/</id>
+    <published>2017-08-23T16:00:00.000Z</published>
+    <updated>2017-08-23T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;git教程：&lt;a href=&quot;https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;廖雪峰的git教程&lt;/a&gt; 、 &lt;a href=&quot;https://www.yiibai.com/git/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;git教程&lt;/a&gt; 。&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;Git与SVN的区别&quot;&gt;&lt;a href=&quot;#Git与SVN的区别&quot; class=&quot;headerlink&quot; title=&quot;Git与SVN的区别&quot;&gt;&lt;/a&gt;Git与SVN的区别&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;git是分布式版本控制系统，SVN是集中式版本控制系统。详见： &lt;a href=&quot;https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374027586935cf69c53637d8458c9aec27dd546a6cd6000&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;集中式vs分布式 &lt;/a&gt;。&lt;/li&gt;&lt;li&gt;git把内容按元数据方式存储，而SVN是按文件。&lt;/li&gt;&lt;li&gt;git版本库可以离线查看所有log，可以离线提交，而SVN不可以。&lt;/li&gt;&lt;li&gt;……更多区别详见： &lt;a href=&quot;https://www.jianshu.com/p/bfec042349ca&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Svn与Git的区别&lt;/a&gt; 。&lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;操作流程&quot;&gt;&lt;a href=&quot;#操作流程&quot; class=&quot;headerlink&quot; title=&quot;操作流程&quot;&gt;&lt;/a&gt;操作流程&lt;/h3&gt;&lt;p&gt;SVN&lt;/p&gt;&lt;ol&gt;&lt;li&gt;update（将远程版本库代码更新到本地）&lt;/li&gt;&lt;li&gt;commit（将本地代码提交到远程版本库）&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;git&lt;/p&gt;&lt;ol&gt;&lt;li&gt;commit（将本地代码提交到远程版本库）&lt;/li&gt;&lt;li&gt;fetch（将远程版本库的改动下载到本地（未合并））&lt;/li&gt;&lt;li&gt;merge（合并两个分支（本地、远程））&lt;/li&gt;&lt;li&gt;push（将最新的版本库同步到远程服务器）&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;显而易见：SVN的操作简单明了，git学习成本比SVN高一点。但是由于git是分布式的，所以不需要联网就可以将代码改动立即提交。提交到本地版本库之后，本地和远程的版本就不一样了，因此需要fetch、merge、push来同步版本库。&lt;/p&gt;&lt;p&gt;那么这点区别有什么意义呢？将代码提交到版本库里就有了记录，就可以查询可以恢复，相当于游戏的存档，而与远程服务器的交互因为需要网络，就有很大的不稳定因素，可能会失败，相当于游戏的打BOSS。SVN是将存档和打BOSS绑定到了一起，要打了BOSS后才可以存档进度；而git由于版本库在本地，所以随时随地可以存档，并且要求打BOSS前必须存档。&lt;/p&gt;&lt;p&gt;使用git最大的感触就是&lt;strong&gt;安全&lt;/strong&gt;（故障率低、易恢复）、&lt;strong&gt;速度快&lt;/strong&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Dev" scheme="https://xaoxuu.com/blog/categories/dev/"/>
+    
+    
+      <category term="git" scheme="https://xaoxuu.com/blog/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何搭建基于 Hexo 的独立博客</title>
+    <link href="https://xaoxuu.com/blog/2017-07-05-hexo-blog/"/>
+    <id>https://xaoxuu.com/blog/2017-07-05-hexo-blog/</id>
+    <published>2017-07-04T16:00:00.000Z</published>
+    <updated>2018-09-09T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果你的电脑是 macOS 系统，又比较懒，你可以选择使用下面这行脚本命令全程自动化完成，下面文章就可以不用看了。&lt;/p&gt;&lt;p&gt;打开终端，cd 到你想创建博客的地方，执行这一行命令：&lt;br&gt;&lt;/p&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;curl -O &lt;span class=&quot;string&quot;&gt;&#39;https://raw.githubusercontent.com/xaoxuu/hexo.sh/master/hexo.sh&#39;&lt;/span&gt; -&lt;span class=&quot;comment&quot;&gt;# &amp;amp;&amp;amp; chmod 777 hexo.sh &amp;amp;&amp;amp; . hexo.sh -i init&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;当然，如果你想知其所以然，最好还是看一下本文。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Life" scheme="https://xaoxuu.com/blog/categories/life/"/>
+    
+    
+      <category term="blog" scheme="https://xaoxuu.com/blog/tags/blog/"/>
+    
+      <category term="Hexo" scheme="https://xaoxuu.com/blog/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS 接入 Strava 分享模块（下篇：StravaSDK）</title>
+    <link href="https://xaoxuu.com/blog/2017-06-28-ios-strava/"/>
+    <id>https://xaoxuu.com/blog/2017-06-28-ios-strava/</id>
+    <published>2017-06-27T16:00:00.000Z</published>
+    <updated>2017-06-27T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/亲亲.gif&quot; data-original=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/posts/2017/4e587f8d048a87d48305e2f26d6aca74048fcf.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/StravaKit/StravaKit&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;StravaKit&lt;/a&gt; 是一个比较新而且代码比较规范的第三方SDK，但是目前还没有上传功能（详见 &lt;a href=&quot;https://github.com/StravaKit/StravaKit/blob/master/TODO.md&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;todo&lt;/a&gt;） 。所以我不得已对&lt;code&gt;StravaKit 0.9.5&lt;/code&gt;增加上传功能，并进行一些简单封装和改编，使之能够植入到公司项目中。由于时间有限，我只增加了上传fit文件的功能，并且使用了第三方框架&lt;code&gt;Alamofire&lt;/code&gt;，所以需要在项目中导入&lt;code&gt;Alamofire&lt;/code&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="Strava" scheme="https://xaoxuu.com/blog/tags/strava/"/>
+    
+      <category term="fit" scheme="https://xaoxuu.com/blog/tags/fit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Swift 使用 Alamofire 框架上传文件</title>
+    <link href="https://xaoxuu.com/blog/2017-06-26-swift-alamofire/"/>
+    <id>https://xaoxuu.com/blog/2017-06-26-swift-alamofire/</id>
+    <published>2017-06-25T16:00:00.000Z</published>
+    <updated>2017-06-25T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/亲亲.gif&quot; data-original=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/posts/2017/48c3b80ea9261d1946ca09417c34acf05a5b06.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Alamofire/Alamofire&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Alamofire&lt;/a&gt; 是一个在GitHub上star数已超过24k的网络库。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="Alamofire" scheme="https://xaoxuu.com/blog/tags/alamofire/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS 接入 Strava 分享模块（上篇：FitSDK）</title>
+    <link href="https://xaoxuu.com/blog/2017-06-22-ios-fitsdk/"/>
+    <id>https://xaoxuu.com/blog/2017-06-22-ios-fitsdk/</id>
+    <published>2017-06-21T16:00:00.000Z</published>
+    <updated>2017-06-21T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.thisisant.com/resources/fit/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;fit&lt;/a&gt; 是一种文件协议，体积小巧，多用于可穿戴设备记录、传输运动与健康数据。官方提供了C、C++、Java语言的SDK和非常详细的使用文档。因此在iOS端接入fit就需要在C或C++的SDK基础上进行一点面向对象的封装。&lt;/p&gt;&lt;h2 id=&quot;SDK下载&quot;&gt;&lt;a href=&quot;#SDK下载&quot; class=&quot;headerlink&quot; title=&quot;SDK下载&quot;&gt;&lt;/a&gt;SDK下载&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.thisisant.com/resources/fit/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;官方SDK.zip&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/xaoxuu/FitSDK&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;FitSDK for iOS&lt;/a&gt; （我基于官方C语言版SDK的OC封装）&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="Strava" scheme="https://xaoxuu.com/blog/tags/strava/"/>
+    
+      <category term="fit" scheme="https://xaoxuu.com/blog/tags/fit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS 让代码实现“冷却”机制</title>
+    <link href="https://xaoxuu.com/blog/2017-05-07-code-cooldown/"/>
+    <id>https://xaoxuu.com/blog/2017-05-07-code-cooldown/</id>
+    <published>2017-05-06T16:00:00.000Z</published>
+    <updated>2017-05-06T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;必要性&quot;&gt;&lt;a href=&quot;#必要性&quot; class=&quot;headerlink&quot; title=&quot;必要性&quot;&gt;&lt;/a&gt;必要性&lt;/h2&gt;&lt;p&gt;首先我个人认为设计合理、逻辑严谨的代码是不需要强行冷却的，但是我们不能保证我们面对的代码永远都是完美的，所以我在 &lt;a href=&quot;https://github.com/xaoxuu/AXKit&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;AXKit&lt;/a&gt; 中就提供了这个冷却机制以延长那些癌症晚期的代码的寿命。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="cooldown" scheme="https://xaoxuu.com/blog/tags/cooldown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Runtime 简单应用：AXKit手势分类实现原理</title>
+    <link href="https://xaoxuu.com/blog/2017-04-07-gesture/"/>
+    <id>https://xaoxuu.com/blog/2017-04-07-gesture/</id>
+    <published>2017-04-06T16:00:00.000Z</published>
+    <updated>2017-05-06T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;手势的应用场景很多，如果你觉得系统给我们提供的方法使用起来并不那么方便，那么本文可能对你有帮助，因为我用block对其进行了封装。&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;应用场景&quot;&gt;&lt;a href=&quot;#应用场景&quot; class=&quot;headerlink&quot; title=&quot;应用场景&quot;&gt;&lt;/a&gt;应用场景&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;场景1：为了调试某个功能，快速给一个视图添加手势，要求轻触的时候执行某段代码。&lt;/li&gt;&lt;li&gt;场景2：tabbar按钮双击刷新列表，要求双击的速度在一秒内，执行某段代码。&lt;/li&gt;&lt;li&gt;场景3：给某个图片添加捏合手势以及旋转手势。&lt;/li&gt;&lt;li&gt;……&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="runtime" scheme="https://xaoxuu.com/blog/tags/runtime/"/>
+    
+      <category term="开源库" scheme="https://xaoxuu.com/blog/tags/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
+    
+      <category term="AXKit" scheme="https://xaoxuu.com/blog/tags/axkit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS 分层架构初探</title>
+    <link href="https://xaoxuu.com/blog/2017-03-29-ios-layered-architecture/"/>
+    <id>https://xaoxuu.com/blog/2017-03-29-ios-layered-architecture/</id>
+    <published>2017-03-28T16:00:00.000Z</published>
+    <updated>2017-03-28T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这篇博客把分层架构讲的很形象： &lt;a href=&quot;https://blog.csdn.net/hanxuemin12345/article/details/8544957&quot; rel=&quot;external nofollow noopener noreferrer&quot; target
+      
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="architecture" scheme="https://xaoxuu.com/blog/tags/architecture/"/>
+    
+      <category term="架构" scheme="https://xaoxuu.com/blog/tags/%E6%9E%B6%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Excel 导出 iOS、Android 多国语言工具</title>
+    <link href="https://xaoxuu.com/blog/2017-03-08-ios-localizable-string/"/>
+    <id>https://xaoxuu.com/blog/2017-03-08-ios-localizable-string/</id>
+    <published>2017-03-07T16:00:00.000Z</published>
+    <updated>2017-03-07T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-下载，解压&quot;&gt;&lt;a href=&quot;#1-下载，解压&quot; class=&quot;headerlink&quot; title=&quot;1. 下载，解压&quot;&gt;&lt;/a&gt;1. 下载，解压&lt;/h2&gt;&lt;p&gt;下载工具：&lt;a href=&quot;https://github.com/CatchZeng/Localizable.strings2Excel&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://github.com/CatchZeng/Localizable.strings2Excel&lt;/a&gt; 。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NEXUS 这个工具，以后不再更新了</title>
+    <link href="https://xaoxuu.com/blog/2017-01-02-nexus/"/>
+    <id>https://xaoxuu.com/blog/2017-01-02-nexus/</id>
+    <published>2017-01-01T16:00:00.000Z</published>
+    <updated>2018-05-01T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前几天一哥们发现了一个小BUG，立即打开尘封已久的 NEXUS 项目，发现距离上次更新已经时隔一年。以后我几乎不再使用 Windows 系统了，所以不出意外的话这就是最后一次更新了。&lt;/p&gt;&lt;h2 id=&quot;那么，什么是-NEXUS-？&quot;&gt;&lt;a href=&quot;#那么，什么是-NEXUS-？&quot; class=&quot;headerlink&quot; title=&quot;那么，什么是 NEXUS ？&quot;&gt;&lt;/a&gt;那么，什么是 NEXUS ？&lt;/h2&gt;&lt;p&gt;简单地说，就如同电脑管家+快捷搜索+激活工具集锦+……&lt;br&gt;NEXUS（魔枢）意为联接、沟通，在《魔兽》里翻译为魔枢，《星际迷航》里翻译为时汇。软件以此为名旨在连通问题与答案，终极目标即输入任何问题或需求，即可一步达到目的，成为一个信息的枢纽。&lt;br&gt;魔枢的方便之处在于：点击屏幕左上角，即可呼出搜索栏，此搜索栏对于一些常用的网站如[优酷]、[淘宝]等等可以直达官网，省去了搜索引擎检索的步骤。左上角热键是透明的，不影响视觉，只有在允许魔枢后台运行时才会生效。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Dev" scheme="https://xaoxuu.com/blog/categories/dev/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>封装 .framework 静态库</title>
+    <link href="https://xaoxuu.com/blog/2016-11-06-ios-framework/"/>
+    <id>https://xaoxuu.com/blog/2016-11-06-ios-framework/</id>
+    <published>2016-11-05T16:00:00.000Z</published>
+    <updated>2016-11-05T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;为什么要封装静态库&quot;&gt;&lt;a href=&quot;#为什么要封装静态库&quot; class=&quot;headerlink&quot; title=&quot;为什么要封装静态库&quot;&gt;&lt;/a&gt;为什么要封装静态库&lt;/h2&gt;&lt;p&gt;像工作中使用的第三方SDK基本上都是闭源的，因为公司不能把自己的机密泄露出去。所以当需要给别人提供SDK但不让他们知道代码的实现时就需要封装成静态库。&lt;/p&gt;&lt;p&gt;静态库有&lt;code&gt;.a&lt;/code&gt;库和&lt;code&gt;.framework&lt;/code&gt;库，苹果官方更建议我们使用&lt;code&gt;.framework&lt;/code&gt;库，因为其更加强大。&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;.a是一个纯二进制文件，.framework中除了有二进制文件之外还有资源文件。&lt;br&gt;.a文件不能直接使用，至少要有.h文件配合，.framework文件可以直接使用。&lt;br&gt;.a + .h + sourceFile = .framework。&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="静态库" scheme="https://xaoxuu.com/blog/tags/%E9%9D%99%E6%80%81%E5%BA%93/"/>
+    
+      <category term="framework" scheme="https://xaoxuu.com/blog/tags/framework/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从 UIImageView 指定点取色</title>
+    <link href="https://xaoxuu.com/blog/2016-09-14-get-color/"/>
+    <id>https://xaoxuu.com/blog/2016-09-14-get-color/</id>
+    <published>2016-09-13T16:00:00.000Z</published>
+    <updated>2016-10-19T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;开发中有时候会遇到这样的需求，要给用户一个取色板，让用户从中自由地选取颜色，用来改变主题或者控制灯具的颜色等。这时候我们就需要获取一个视图的指定坐标的颜色值。&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;使用场景&quot;&gt;&lt;a href=&quot;#使用场景&quot; class=&quot;headerlink&quot; title=&quot;使用场景&quot;&gt;&lt;/a&gt;使用场景&lt;/h2&gt;&lt;p&gt;有时候我们可能会需要一个取色器，例如我的蓝牙灯项目，让用户从一个取色器中随意取色：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="开源库" scheme="https://xaoxuu.com/blog/tags/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
+    
+      <category term="AXKit" scheme="https://xaoxuu.com/blog/tags/axkit/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>iOS 链式封装，更优雅地存取沙盒文件</title>
+    <link href="https://xaoxuu.com/blog/2016-09-12-sandbox/"/>
+    <id>https://xaoxuu.com/blog/2016-09-12-sandbox/</id>
+    <published>2016-09-11T16:00:00.000Z</published>
+    <updated>2016-10-19T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;假如你需要把一个字典或者别的什么东西保存到沙盒里，你准备怎么做？也许你已经条件反射的想到了操作步骤……其实，你可以不必每次都那么老老实实的把每一步写出来，一行代码就可以了：&lt;/p&gt;&lt;figure class=&quot;highlight objc&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;@&quot;文件名&quot;&lt;/span&gt;.cachePath.save(要保存的内容);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;本质上就是把沙盒文件操作简化为：【路径+保存文件】两个关键点，组成一条链式语法。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="开源库" scheme="https://xaoxuu.com/blog/tags/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
+    
+      <category term="AXKit" scheme="https://xaoxuu.com/blog/tags/axkit/"/>
+    
+      <category term="sandbox" scheme="https://xaoxuu.com/blog/tags/sandbox/"/>
+    
+      <category term="沙盒" scheme="https://xaoxuu.com/blog/tags/%E6%B2%99%E7%9B%92/"/>
+    
+      <category term="缓存" scheme="https://xaoxuu.com/blog/tags/%E7%BC%93%E5%AD%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何发布源码到 CocoaPods</title>
+    <link href="https://xaoxuu.com/blog/2016-08-11-cocoapods/"/>
+    <id>https://xaoxuu.com/blog/2016-08-11-cocoapods/</id>
+    <published>2016-08-10T16:00:00.000Z</published>
+    <updated>2016-10-04T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;说实在话，类似的教程网上很多，基本可以满足大多数人零基础发布CocoaPods，但是其中可能会遇到一些问题，只有亲自尝试过才知道。&lt;/p&gt;&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;h3 id=&quot;1-clone远程仓库到本地&quot;&gt;&lt;a href=&quot;#1-clone远程仓库到本地&quot; class=&quot;headerlink&quot; title=&quot;1. clone远程仓库到本地&quot;&gt;&lt;/a&gt;1. clone远程仓库到本地&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; 你的仓库链接&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&quot;2-注册trunk&quot;&gt;&lt;a href=&quot;#2-注册trunk&quot; class=&quot;headerlink&quot; title=&quot;2. 注册trunk&quot;&gt;&lt;/a&gt;2. 注册trunk&lt;/h3&gt;&lt;p&gt;注册的命令&lt;/p&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pod trunk register 你的邮箱 你的用户名&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;记得去邮箱里验证，然后可以输入以下命令查看个人信息&lt;/p&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;pod trunk me&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="CocoaPods" scheme="https://xaoxuu.com/blog/tags/cocoapods/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ReactiveCocoa 初探</title>
+    <link href="https://xaoxuu.com/blog/2016-07-20-reactive-cocoa/"/>
+    <id>https://xaoxuu.com/blog/2016-07-20-reactive-cocoa/</id>
+    <published>2016-07-19T16:00:00.000Z</published>
+    <updated>2016-09-26T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;关于RAC&quot;&gt;&lt;a href=&quot;#关于RAC&quot; class=&quot;headerlink&quot; title=&quot;关于RAC&quot;&gt;&lt;/a&gt;关于RAC&lt;/h2&gt;&lt;p&gt;RAC是 &lt;a href=&quot;https://github.com/ReactiveCocoa/ReactiveCocoa&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;GitHub开源的ReactiveCocoa框架&lt;/a&gt; 。&lt;br&gt;RAC简化代码，使一个功能的代码集中到一起，提高了代码聚合性。 &lt;a href=&quot;https://baike.baidu.com/item/高内聚低耦合?fr=aladdin&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;(高内聚，低耦合)&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
+    
+    
+      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
+    
+      <category term="ReactiveCocoa" scheme="https://xaoxuu.com/blog/tags/reactivecocoa/"/>
+    
+      <category term="响应式编程" scheme="https://xaoxuu.com/blog/tags/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+</feed>
