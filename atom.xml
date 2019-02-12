@@ -39,26 +39,6 @@
   </entry>
   
   <entry>
-    <title>iOS 开发工程师面试心得</title>
-    <link href="https://xaoxuu.com/blog/2018-05-05-ios-interview/"/>
-    <id>https://xaoxuu.com/blog/2018-05-05-ios-interview/</id>
-    <published>2018-05-04T16:00:00.000Z</published>
-    <updated>2018-05-05T16:00:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近找工作已经面试了6家公司，既有初创公司也有上市公司，现利用周末时间总结一下面试被问的频率高的技术问题，本文最近几天会持续更新。&lt;/p&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th style=&quot;text-align:left&quot;&gt;技术点&lt;/th&gt;&lt;th style=&quot;text-align:left&quot;&gt;频率&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;Runtime机制及其应用&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;RunLoop原理及其应用&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;多线程技术&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;网络技术&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;内存管理理解及其应用&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;性能优化&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★★&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;系统架构设计&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★☆&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;Block&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★☆&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;CoreGraphics、UIBezierPath、CoreAnimation&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★☆&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;数据结构和算法&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★★☆&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;text-align:left&quot;&gt;第三方库&lt;/td&gt;&lt;td style=&quot;text-align:left&quot;&gt;★★★☆☆&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;其中智能硬件行业的公司会问蓝牙BLE的技术点：数据分包、传输、校验、加密。&lt;br&gt;另外，&lt;a href=&quot;https://xaoxuu.com/wiki/axkit/&quot;&gt;AXKit&lt;/a&gt;（个人开源库）的简介中的功能的实现思路也是必问的。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Cocoa Dev" scheme="https://xaoxuu.com/blog/categories/cocoa-dev/"/>
-    
-    
-      <category term="iOS" scheme="https://xaoxuu.com/blog/tags/ios/"/>
-    
-  </entry>
-  
-  <entry>
     <title>整理混乱不堪的各国语言翻译</title>
     <link href="https://xaoxuu.com/blog/2017-12-25-merge-localizable-strings/"/>
     <id>https://xaoxuu.com/blog/2017-12-25-merge-localizable-strings/</id>
@@ -468,6 +448,26 @@
       <category term="ReactiveCocoa" scheme="https://xaoxuu.com/blog/tags/reactivecocoa/"/>
     
       <category term="响应式编程" scheme="https://xaoxuu.com/blog/tags/%E5%93%8D%E5%BA%94%E5%BC%8F%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git 常用命令以及相关资料</title>
+    <link href="https://xaoxuu.com/blog/2016-06-07-git/"/>
+    <id>https://xaoxuu.com/blog/2016-06-07-git/</id>
+    <published>2016-06-06T16:00:00.000Z</published>
+    <updated>2016-07-24T16:00:00.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;相关资料：&lt;br&gt;&lt;a href=&quot;https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;廖雪峰教程链接&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.ruanyifeng.com/blog/2014/06/git_remote.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Git远程操作详解&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://blog.zengrong.net/post/1746.html&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;Git查看、删除、重命名远程分支和tag&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="Dev" scheme="https://xaoxuu.com/blog/categories/dev/"/>
+    
+    
+      <category term="git" scheme="https://xaoxuu.com/blog/tags/git/"/>
     
   </entry>
   
