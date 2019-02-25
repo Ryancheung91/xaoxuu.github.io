@@ -47,7 +47,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;现状&quot;&gt;&lt;a href=&quot;#现状&quot; class=&quot;headerlink&quot; title=&quot;现状&quot;&gt;&lt;/a&gt;现状&lt;/h2&gt;&lt;p&gt;linksmart项目截止目前已经支持了17个国家的语言，从诞生到现在也已经经历了很多程序员的修改和维护，代码已经变得十分混乱。因为公司一直在接新的定制项目，所以也没有时间进行一次彻底的重构，只能在维护某方面的BUG的时候，对相关代码进行局部重构。现在的情况是：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;同一个文本有些语言有翻译，有些语言没有翻译。&lt;/li&gt;&lt;li&gt;有些需要使用缩进的地方，由于某种原因，并没有使用&lt;code&gt;UIEdgeInsets&lt;/code&gt;进行缩进，而是在文本前后加空格。(⊙﹏⊙)b&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&quot;整理思路&quot;&gt;&lt;a href=&quot;#整理思路&quot; class=&quot;headerlink&quot; title=&quot;整理思路&quot;&gt;&lt;/a&gt;整理思路&lt;/h2&gt;&lt;p&gt;首先必须得找出一种合适的方法维护这些Localizable.strings，在Excel里做一个总表，增加语言的时候，可以直接把英文的一列发给客户进行翻译。最大的优势是：随时可以用脚本把Excel里的所有语言导出成项目支持的Localizable.strings文件，极大提高效率。&lt;/p&gt;
+      &lt;p&gt;linksmart项目截止目前已经支持了17个国家的语言，从诞生到现在也已经经历了很多程序员的修改和维护，代码已经变得十分混乱。因为公司一直在接新的定制项目，所以也没有时间进行一次彻底的重构，只能在维护某方面的BUG的时候，对相关代码进行局部重构。现在的情况是：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;同一个文本有些语言有翻译，有些语言没有翻译。&lt;/li&gt;&lt;li&gt;有些需要使用缩进的地方，由于某种原因，并没有使用&lt;code&gt;UIEdgeInsets&lt;/code&gt;进行缩进，而是在文本前后加空格。(⊙﹏⊙)b&lt;/li&gt;&lt;/ul&gt;
     
     </summary>
     
@@ -91,7 +91,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/亲亲.gif&quot; data-original=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/posts/2017/5da30e66c4dbd6335d4f77f5aa789174bab926.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;简单美观的统计图表，真的只有一个类！&lt;/p&gt;&lt;h2 id=&quot;源码下载&quot;&gt;&lt;a href=&quot;#源码下载&quot; class=&quot;headerlink&quot; title=&quot;源码下载&quot;&gt;&lt;/a&gt;源码下载&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;下载地址： &lt;a href=&quot;https://github.com/xaoxuu/AXChartView/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;https://github.com/xaoxuu/AXChartView/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+      &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/volantis@1.0/img/qq/亲亲.gif&quot; data-original=&quot;https://cdn.jsdelivr.net/gh/xaoxuu/assets@18.12.27/posts/2017/5da30e66c4dbd6335d4f77f5aa789174bab926.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;&lt;p&gt;简单美观的统计图表，真的只有一个类！&lt;/p&gt;
     
     </summary>
     
@@ -201,7 +201,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;a href=&quot;https://www.thisisant.com/resources/fit/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;fit&lt;/a&gt; 是一种文件协议，体积小巧，多用于可穿戴设备记录、传输运动与健康数据。官方提供了C、C++、Java语言的SDK和非常详细的使用文档。因此在iOS端接入fit就需要在C或C++的SDK基础上进行一点面向对象的封装。&lt;/p&gt;&lt;h2 id=&quot;SDK下载&quot;&gt;&lt;a href=&quot;#SDK下载&quot; class=&quot;headerlink&quot; title=&quot;SDK下载&quot;&gt;&lt;/a&gt;SDK下载&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.thisisant.com/resources/fit/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;官方SDK.zip&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/xaoxuu/FitSDK&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;FitSDK for iOS&lt;/a&gt; （我基于官方C语言版SDK的OC封装）&lt;/li&gt;&lt;/ul&gt;
+      &lt;p&gt;&lt;a href=&quot;https://www.thisisant.com/resources/fit/&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;fit&lt;/a&gt; 是一种文件协议，体积小巧，多用于可穿戴设备记录、传输运动与健康数据。官方提供了C、C++、Java语言的SDK和非常详细的使用文档。因此在iOS端接入fit就需要在C或C++的SDK基础上进行一点面向对象的封装。&lt;/p&gt;
     
     </summary>
     
@@ -225,7 +225,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;必要性&quot;&gt;&lt;a href=&quot;#必要性&quot; class=&quot;headerlink&quot; title=&quot;必要性&quot;&gt;&lt;/a&gt;必要性&lt;/h2&gt;&lt;p&gt;首先我个人认为设计合理、逻辑严谨的代码是不需要强行冷却的，但是我们不能保证我们面对的代码永远都是完美的，所以我在 &lt;a href=&quot;https://github.com/xaoxuu/AXKit&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;AXKit&lt;/a&gt; 中就提供了这个冷却机制以延长那些癌症晚期的代码的寿命。&lt;/p&gt;
+      &lt;p&gt;首先我个人认为设计合理、逻辑严谨的代码是不需要强行冷却的，但是我们不能保证我们面对的代码永远都是完美的，所以我在 &lt;a href=&quot;https://github.com/xaoxuu/AXKit&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;AXKit&lt;/a&gt; 中就提供了这个冷却机制以延长那些癌症晚期的代码的寿命。&lt;/p&gt;
     
     </summary>
     
@@ -247,7 +247,7 @@
     
     <summary type="html">
     
-      &lt;blockquote&gt;&lt;p&gt;手势的应用场景很多，如果你觉得系统给我们提供的方法使用起来并不那么方便，那么本文可能对你有帮助，因为我用block对其进行了封装。&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;应用场景&quot;&gt;&lt;a href=&quot;#应用场景&quot; class=&quot;headerlink&quot; title=&quot;应用场景&quot;&gt;&lt;/a&gt;应用场景&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;场景1：为了调试某个功能，快速给一个视图添加手势，要求轻触的时候执行某段代码。&lt;/li&gt;&lt;li&gt;场景2：tabbar按钮双击刷新列表，要求双击的速度在一秒内，执行某段代码。&lt;/li&gt;&lt;li&gt;场景3：给某个图片添加捏合手势以及旋转手势。&lt;/li&gt;&lt;li&gt;……&lt;/li&gt;&lt;/ul&gt;
+      &lt;p&gt;手势的应用场景很多，如果你觉得系统给我们提供的方法使用起来并不那么方便，那么本文可能对你有帮助，因为我用block对其进行了封装。&lt;/p&gt;
     
     </summary>
     
@@ -338,7 +338,7 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;为什么要封装静态库&quot;&gt;&lt;a href=&quot;#为什么要封装静态库&quot; class=&quot;headerlink&quot; title=&quot;为什么要封装静态库&quot;&gt;&lt;/a&gt;为什么要封装静态库&lt;/h2&gt;&lt;p&gt;像工作中使用的第三方SDK基本上都是闭源的，因为公司不能把自己的机密泄露出去。所以当需要给别人提供SDK但不让他们知道代码的实现时就需要封装成静态库。&lt;/p&gt;&lt;p&gt;静态库有&lt;code&gt;.a&lt;/code&gt;库和&lt;code&gt;.framework&lt;/code&gt;库，苹果官方更建议我们使用&lt;code&gt;.framework&lt;/code&gt;库，因为其更加强大。&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;.a是一个纯二进制文件，.framework中除了有二进制文件之外还有资源文件。&lt;br&gt;.a文件不能直接使用，至少要有.h文件配合，.framework文件可以直接使用。&lt;br&gt;.a + .h + sourceFile = .framework。&lt;/p&gt;&lt;/blockquote&gt;
+      &lt;p&gt;像工作中使用的第三方SDK基本上都是闭源的，因为公司不能把自己的机密泄露出去。所以当需要给别人提供SDK但不让他们知道代码的实现时就需要封装成静态库。&lt;/p&gt;&lt;p&gt;静态库有&lt;code&gt;.a&lt;/code&gt;库和&lt;code&gt;.framework&lt;/code&gt;库，苹果官方更建议我们使用&lt;code&gt;.framework&lt;/code&gt;库，因为其更加强大。&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;.a是一个纯二进制文件，.framework中除了有二进制文件之外还有资源文件。&lt;br&gt;.a文件不能直接使用，至少要有.h文件配合，.framework文件可以直接使用。&lt;br&gt;.a + .h + sourceFile = .framework。&lt;/p&gt;&lt;/blockquote&gt;
     
     </summary>
     
@@ -362,7 +362,7 @@
     
     <summary type="html">
     
-      &lt;blockquote&gt;&lt;p&gt;开发中有时候会遇到这样的需求，要给用户一个取色板，让用户从中自由地选取颜色，用来改变主题或者控制灯具的颜色等。这时候我们就需要获取一个视图的指定坐标的颜色值。&lt;/p&gt;&lt;/blockquote&gt;&lt;h2 id=&quot;使用场景&quot;&gt;&lt;a href=&quot;#使用场景&quot; class=&quot;headerlink&quot; title=&quot;使用场景&quot;&gt;&lt;/a&gt;使用场景&lt;/h2&gt;&lt;p&gt;有时候我们可能会需要一个取色器，例如我的蓝牙灯项目，让用户从一个取色器中随意取色：&lt;/p&gt;
+      &lt;p&gt;开发中有时候会遇到这样的需求，要给用户一个取色板，让用户从中自由地选取颜色，用来改变主题或者控制灯具的颜色等。这时候我们就需要获取一个视图的指定坐标的颜色值。&lt;/p&gt;
     
     </summary>
     
