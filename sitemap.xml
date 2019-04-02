@@ -3,13 +3,13 @@
 
 
     <sitemap>
-        <loc>https://xaoxuu.com/blog/post-sitemap.xml</loc>
+        <loc>https://xaoxuu.com/post-sitemap.xml</loc>
         <lastmod>2018-09-09T16:00:00.000Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>https://xaoxuu.com/blog/page-sitemap.xml</loc>
-        <lastmod>2019-03-20T01:06:46.070Z</lastmod>
+        <loc>https://xaoxuu.com/page-sitemap.xml</loc>
+        <lastmod>2019-04-02T09:26:04.422Z</lastmod>
     </sitemap>
 
 </sitemapindex>

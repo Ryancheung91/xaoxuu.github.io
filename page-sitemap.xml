@@ -2,14 +2,49 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://xaoxuu.com/blog</loc>
+        <loc>https://xaoxuu.com</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     
     <url>
-        <loc>https://xaoxuu.com/blog/friends/</loc>
-        <lastmod>2019-03-20T01:06:46.070Z</lastmod>
+        <loc>https://xaoxuu.com/blog/</loc>
+        <lastmod>2019-04-02T09:26:04.422Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/about/</loc>
+        <lastmod>2019-04-02T07:44:11.734Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/music/</loc>
+        <lastmod>2019-04-01T02:46:32.963Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/poetry/</loc>
+        <lastmod>2019-04-01T02:46:32.963Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/404.html</loc>
+        <lastmod>2019-04-01T02:46:32.962Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/friends/</loc>
+        <lastmod>2019-04-01T02:46:32.962Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
