@@ -8,6 +8,78 @@
     </url>
 
     <url>
+        <loc>https://xaoxuu.com/projects/vim-cn.sh/</loc>
+        <lastmod>2019-04-03T06:46:54.727Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/axkit/</loc>
+        <lastmod>2019-04-03T06:46:41.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/heartmate/</loc>
+        <lastmod>2019-04-03T06:46:40.360Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/hexo.sh/</loc>
+        <lastmod>2019-04-03T06:46:37.551Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/material-x/</loc>
+        <lastmod>2019-04-03T06:46:35.639Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/nexus/</loc>
+        <lastmod>2019-04-03T06:46:34.278Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/noticeboard/</loc>
+        <lastmod>2019-04-03T06:46:32.572Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/podspec.sh/</loc>
+        <lastmod>2019-04-03T06:46:31.171Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/smartlamp/</loc>
+        <lastmod>2019-04-03T06:46:28.756Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://xaoxuu.com/blog/2017-07-05-hexo-blog/</loc>
         <lastmod>2018-09-09T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -136,7 +208,7 @@
     </url>
 
     <url>
-        <loc>https://xaoxuu.com/blog/2016-09-12-sandbox/</loc>
+        <loc>https://xaoxuu.com/blog/2016-09-14-get-color/</loc>
         <lastmod>2016-10-19T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -144,7 +216,7 @@
     </url>
 
     <url>
-        <loc>https://xaoxuu.com/blog/2016-09-14-get-color/</loc>
+        <loc>https://xaoxuu.com/blog/2016-09-12-sandbox/</loc>
         <lastmod>2016-10-19T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
