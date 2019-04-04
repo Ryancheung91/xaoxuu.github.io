@@ -192,9 +192,9 @@
       <category term="Cocoa" scheme="https://xaoxuu.com/blog/categories/dev/cocoa/"/>
     
     
-      <category term="objc" scheme="https://xaoxuu.com/blog/tags/objc/"/>
-    
       <category term="Swift" scheme="https://xaoxuu.com/blog/tags/swift/"/>
+    
+      <category term="objc" scheme="https://xaoxuu.com/blog/tags/objc/"/>
     
       <category term="GCD" scheme="https://xaoxuu.com/blog/tags/gcd/"/>
     
@@ -286,9 +286,9 @@
       <category term="Hexo" scheme="https://xaoxuu.com/blog/categories/dev/hexo/"/>
     
     
-      <category term="Hexo" scheme="https://xaoxuu.com/blog/tags/hexo/"/>
-    
       <category term="blog" scheme="https://xaoxuu.com/blog/tags/blog/"/>
+    
+      <category term="Hexo" scheme="https://xaoxuu.com/blog/tags/hexo/"/>
     
   </entry>
   
@@ -414,9 +414,9 @@
     
       <category term="runtime" scheme="https://xaoxuu.com/blog/tags/runtime/"/>
     
-      <category term="AXKit" scheme="https://xaoxuu.com/blog/tags/axkit/"/>
-    
       <category term="开源库" scheme="https://xaoxuu.com/blog/tags/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
+    
+      <category term="AXKit" scheme="https://xaoxuu.com/blog/tags/axkit/"/>
     
   </entry>
   
