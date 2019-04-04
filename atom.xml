@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xaoxuu.com/"/>
-  <updated>2019-04-03T09:51:26.059Z</updated>
+  <updated>2019-04-04T03:20:47.069Z</updated>
   <id>https://xaoxuu.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xaoxuu.com/projects/vim-cn.sh/"/>
     <id>https://xaoxuu.com/projects/vim-cn.sh/</id>
     <published>2018-09-21T16:00:00.000Z</published>
-    <updated>2019-04-03T09:51:26.059Z</updated>
+    <updated>2019-04-04T03:20:47.069Z</updated>
     
     <summary type="html">
     
@@ -43,7 +43,7 @@
     <link href="https://xaoxuu.com/projects/hexo.sh/"/>
     <id>https://xaoxuu.com/projects/hexo.sh/</id>
     <published>2018-08-08T16:00:00.000Z</published>
-    <updated>2019-04-03T06:46:37.551Z</updated>
+    <updated>2019-04-04T00:53:54.707Z</updated>
     
     <summary type="html">
     
@@ -56,9 +56,9 @@
       <category term="Hexo" scheme="https://xaoxuu.com/blog/categories/dev/hexo/"/>
     
     
-      <category term="Hexo" scheme="https://xaoxuu.com/blog/tags/hexo/"/>
-    
       <category term="shell" scheme="https://xaoxuu.com/blog/tags/shell/"/>
+    
+      <category term="Hexo" scheme="https://xaoxuu.com/blog/tags/hexo/"/>
     
   </entry>
   
@@ -91,7 +91,7 @@
     <link href="https://xaoxuu.com/projects/podspec.sh/"/>
     <id>https://xaoxuu.com/projects/podspec.sh/</id>
     <published>2018-07-03T16:00:00.000Z</published>
-    <updated>2019-04-03T06:46:31.171Z</updated>
+    <updated>2019-04-04T00:53:54.840Z</updated>
     
     <summary type="html">
     
@@ -113,7 +113,7 @@
     <link href="https://xaoxuu.com/projects/noticeboard/"/>
     <id>https://xaoxuu.com/projects/noticeboard/</id>
     <published>2018-06-21T16:00:00.000Z</published>
-    <updated>2019-04-03T06:46:32.572Z</updated>
+    <updated>2019-04-04T00:53:54.807Z</updated>
     
     <summary type="html">
     
@@ -157,7 +157,7 @@
     <link href="https://xaoxuu.com/projects/heartmate/"/>
     <id>https://xaoxuu.com/projects/heartmate/</id>
     <published>2017-12-21T16:00:00.000Z</published>
-    <updated>2019-04-03T06:46:40.360Z</updated>
+    <updated>2019-04-04T00:53:54.675Z</updated>
     
     <summary type="html">
     
@@ -205,7 +205,7 @@
     <link href="https://xaoxuu.com/projects/material-x/"/>
     <id>https://xaoxuu.com/projects/material-x/</id>
     <published>2017-10-23T16:00:00.000Z</published>
-    <updated>2019-04-03T06:46:35.639Z</updated>
+    <updated>2019-04-04T00:53:54.741Z</updated>
     
     <summary type="html">
     
@@ -286,9 +286,9 @@
       <category term="Hexo" scheme="https://xaoxuu.com/blog/categories/dev/hexo/"/>
     
     
-      <category term="blog" scheme="https://xaoxuu.com/blog/tags/blog/"/>
-    
       <category term="Hexo" scheme="https://xaoxuu.com/blog/tags/hexo/"/>
+    
+      <category term="blog" scheme="https://xaoxuu.com/blog/tags/blog/"/>
     
   </entry>
   
@@ -414,9 +414,9 @@
     
       <category term="runtime" scheme="https://xaoxuu.com/blog/tags/runtime/"/>
     
-      <category term="开源库" scheme="https://xaoxuu.com/blog/tags/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
-    
       <category term="AXKit" scheme="https://xaoxuu.com/blog/tags/axkit/"/>
+    
+      <category term="开源库" scheme="https://xaoxuu.com/blog/tags/%E5%BC%80%E6%BA%90%E5%BA%93/"/>
     
   </entry>
   
@@ -476,7 +476,7 @@
     <link href="https://xaoxuu.com/projects/axkit/"/>
     <id>https://xaoxuu.com/projects/axkit/</id>
     <published>2017-03-04T16:00:00.000Z</published>
-    <updated>2019-04-03T06:46:41.985Z</updated>
+    <updated>2019-04-04T00:53:54.641Z</updated>
     
     <summary type="html">
     

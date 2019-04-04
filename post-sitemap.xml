@@ -9,63 +9,7 @@
 
     <url>
         <loc>https://xaoxuu.com/projects/vim-cn.sh/</loc>
-        <lastmod>2019-04-03T09:51:26.059Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/axkit/</loc>
-        <lastmod>2019-04-03T06:46:41.985Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/heartmate/</loc>
-        <lastmod>2019-04-03T06:46:40.360Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/hexo.sh/</loc>
-        <lastmod>2019-04-03T06:46:37.551Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/material-x/</loc>
-        <lastmod>2019-04-03T06:46:35.639Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/nexus/</loc>
-        <lastmod>2019-04-03T06:46:34.278Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/noticeboard/</loc>
-        <lastmod>2019-04-03T06:46:32.572Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/podspec.sh/</loc>
-        <lastmod>2019-04-03T06:46:31.171Z</lastmod>
+        <lastmod>2019-04-04T03:20:47.069Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -73,7 +17,63 @@
 
     <url>
         <loc>https://xaoxuu.com/projects/smartlamp/</loc>
-        <lastmod>2019-04-03T06:46:28.756Z</lastmod>
+        <lastmod>2019-04-04T00:53:54.873Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/podspec.sh/</loc>
+        <lastmod>2019-04-04T00:53:54.840Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/noticeboard/</loc>
+        <lastmod>2019-04-04T00:53:54.807Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/nexus/</loc>
+        <lastmod>2019-04-04T00:53:54.774Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/material-x/</loc>
+        <lastmod>2019-04-04T00:53:54.741Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/hexo.sh/</loc>
+        <lastmod>2019-04-04T00:53:54.707Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/heartmate/</loc>
+        <lastmod>2019-04-04T00:53:54.675Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/axkit/</loc>
+        <lastmod>2019-04-04T00:53:54.641Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
