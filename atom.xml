@@ -56,9 +56,9 @@
       <category term="Hexo" scheme="https://xaoxuu.com/blog/categories/dev/hexo/"/>
     
     
-      <category term="shell" scheme="https://xaoxuu.com/blog/tags/shell/"/>
-    
       <category term="Hexo" scheme="https://xaoxuu.com/blog/tags/hexo/"/>
+    
+      <category term="shell" scheme="https://xaoxuu.com/blog/tags/shell/"/>
     
   </entry>
   
@@ -192,9 +192,9 @@
       <category term="Cocoa" scheme="https://xaoxuu.com/blog/categories/dev/cocoa/"/>
     
     
-      <category term="Swift" scheme="https://xaoxuu.com/blog/tags/swift/"/>
-    
       <category term="objc" scheme="https://xaoxuu.com/blog/tags/objc/"/>
+    
+      <category term="Swift" scheme="https://xaoxuu.com/blog/tags/swift/"/>
     
       <category term="GCD" scheme="https://xaoxuu.com/blog/tags/gcd/"/>
     

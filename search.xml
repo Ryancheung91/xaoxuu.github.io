@@ -49,9 +49,9 @@
       
         <tags>
             
-            <tag> shell </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> shell </tag>
             
         </tags>
       
@@ -215,9 +215,9 @@
       
         <tags>
             
-            <tag> Swift </tag>
-            
             <tag> objc </tag>
+            
+            <tag> Swift </tag>
             
             <tag> GCD </tag>
             
