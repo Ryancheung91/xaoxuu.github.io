@@ -8,8 +8,36 @@
     </url>
     
     <url>
+        <loc>https://xaoxuu.com/music/</loc>
+        <lastmod>2019-04-08T01:39:54.484Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/friends/</loc>
+        <lastmod>2019-04-08T01:39:54.483Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/blog/</loc>
+        <lastmod>2019-04-08T01:39:54.482Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>https://xaoxuu.com/about/</loc>
-        <lastmod>2019-04-04T06:14:42.787Z</lastmod>
+        <lastmod>2019-04-08T01:39:54.481Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://xaoxuu.com/404.html</loc>
+        <lastmod>2019-04-08T01:39:54.475Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -17,27 +45,6 @@
     <url>
         <loc>https://xaoxuu.com/poetry/</loc>
         <lastmod>2019-04-04T03:29:16.741Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/music/</loc>
-        <lastmod>2019-04-04T03:28:53.576Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/friends/</loc>
-        <lastmod>2019-04-04T03:25:51.708Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://xaoxuu.com/404.html</loc>
-        <lastmod>2019-04-04T03:23:50.721Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

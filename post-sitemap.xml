@@ -8,48 +8,8 @@
     </url>
 
     <url>
-        <loc>https://xaoxuu.com/projects/vim-cn.sh/</loc>
-        <lastmod>2019-04-04T03:20:47.069Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/smartlamp/</loc>
-        <lastmod>2019-04-04T00:53:54.873Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/podspec.sh/</loc>
-        <lastmod>2019-04-04T00:53:54.840Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/noticeboard/</loc>
-        <lastmod>2019-04-04T00:53:54.807Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://xaoxuu.com/projects/nexus/</loc>
-        <lastmod>2019-04-04T00:53:54.774Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://xaoxuu.com/projects/material-x/</loc>
-        <lastmod>2019-04-04T00:53:54.741Z</lastmod>
+        <lastmod>2019-04-05T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -57,15 +17,15 @@
 
     <url>
         <loc>https://xaoxuu.com/projects/hexo.sh/</loc>
-        <lastmod>2019-04-04T00:53:54.707Z</lastmod>
+        <lastmod>2019-04-03T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://xaoxuu.com/projects/heartmate/</loc>
-        <lastmod>2019-04-04T00:53:54.675Z</lastmod>
+        <loc>https://xaoxuu.com/projects/noticeboard/</loc>
+        <lastmod>2019-03-17T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -73,7 +33,31 @@
 
     <url>
         <loc>https://xaoxuu.com/projects/axkit/</loc>
-        <lastmod>2019-04-04T00:53:54.641Z</lastmod>
+        <lastmod>2019-02-14T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/heartmate/</loc>
+        <lastmod>2019-01-09T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/podspec.sh/</loc>
+        <lastmod>2019-01-08T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/vim-cn.sh/</loc>
+        <lastmod>2019-01-08T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -106,6 +90,14 @@
     <url>
         <loc>https://xaoxuu.com/blog/2017-01-02-nexus/</loc>
         <lastmod>2018-05-01T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/smartlamp/</loc>
+        <lastmod>2018-03-21T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -194,6 +186,14 @@
     <url>
         <loc>https://xaoxuu.com/blog/2017-03-08-ios-localizable-string/</loc>
         <lastmod>2017-03-07T16:00:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://xaoxuu.com/projects/nexus/</loc>
+        <lastmod>2017-03-04T16:00:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

@@ -22,7 +22,7 @@
       
         <tags>
             
-            <tag> shell </tag>
+            <tag> 图床 </tag>
             
         </tags>
       
@@ -51,7 +51,7 @@
             
             <tag> Hexo </tag>
             
-            <tag> shell </tag>
+            <tag> Shell Scripts </tag>
             
         </tags>
       
@@ -107,7 +107,7 @@
       
         <tags>
             
-            <tag> shell </tag>
+            <tag> podspec </tag>
             
         </tags>
       
@@ -134,7 +134,7 @@
       
         <tags>
             
-            <tag> iOS </tag>
+            <tag> 开源库 </tag>
             
         </tags>
       
@@ -188,7 +188,7 @@
       
         <tags>
             
-            <tag> app </tag>
+            <tag> 应用程序 </tag>
             
         </tags>
       
@@ -569,6 +569,8 @@
       
         <tags>
             
+            <tag> 开源库 </tag>
+            
             <tag> AXKit </tag>
             
         </tags>
@@ -617,7 +619,7 @@
       
         <tags>
             
-            <tag> NEXUS </tag>
+            <tag> 实用工具 </tag>
             
         </tags>
       
